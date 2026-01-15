@@ -1,0 +1,381 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cfe2c70941d5654184cebaa0c553611, type: 3}
+  m_Name: ConversationsDatabase
+  m_EditorClassIdentifier: 
+  conversations:
+  - {fileID: 8620736005915737108}
+--- !u!114 &8620736005915737108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b2533393ca97b49a3f41e38549e61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conversationName: Convo 1
+  dialogues:
+  - dialogueName: Diag 1
+    dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+    character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+  - dialogueName: Diag 2
+    dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+    character: {fileID: 6792867503427888399, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+  nodesList:
+  - currentIndex: 0
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 10.400002
+      width: 200
+      height: 160
+    dialogue:
+      dialogueName: Diag 1
+      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 0
+    verse: This is a test file.
+    selectedLineIndex: 0
+    isCondition: 0
+    isDraggable: 1
+    numOfConditions: 0
+    children:
+    - currentIndex: 1
+      rect:
+        serializedVersion: 2
+        x: 276.00003
+        y: 172.00005
+        width: 200
+        height: 160
+      dialogue:
+        dialogueName: Diag 2
+        dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+        character: {fileID: 6792867503427888399, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+      chosenDialogueIndex: 1
+      verse: Don't worry about it too much
+      selectedLineIndex: 1
+      isCondition: 0
+      isDraggable: 0
+      numOfConditions: 0
+      children:
+      - currentIndex: 2
+        rect:
+          serializedVersion: 2
+          x: 168
+          y: 330.4002
+          width: 400
+          height: 120
+        dialogue:
+          dialogueName: Diag 1
+          dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+          character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+        chosenDialogueIndex: 0
+        verse: 
+        selectedLineIndex: 0
+        isCondition: 1
+        isDraggable: 0
+        numOfConditions: 2
+        children:
+        - currentIndex: 3
+          rect:
+            serializedVersion: 2
+            x: 65.600006
+            y: 575.1988
+            width: 200
+            height: 160
+          dialogue:
+            dialogueName: Diag 1
+            dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+            character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+          chosenDialogueIndex: 0
+          verse: Don't worry about it too much
+          selectedLineIndex: 1
+          isCondition: 0
+          isDraggable: 0
+          numOfConditions: 0
+          children: []
+          optionsFile: {fileID: 0}
+          selectedOptions: 
+          optionsText: []
+          optionsPositions: []
+        - currentIndex: 4
+          rect:
+            serializedVersion: 2
+            x: 474.39993
+            y: 582.3986
+            width: 200
+            height: 160
+          dialogue:
+            dialogueName: Diag 1
+            dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+            character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+          chosenDialogueIndex: 0
+          verse: This is a test file.
+          selectedLineIndex: 0
+          isCondition: 0
+          isDraggable: 0
+          numOfConditions: 0
+          children: []
+          optionsFile: {fileID: 0}
+          selectedOptions: 
+          optionsText: []
+          optionsPositions: []
+        optionsFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+        selectedOptions: 0000000001000000
+        optionsText:
+        - This is a test file.
+        - Don't worry about it too much
+        optionsPositions:
+        - serializedVersion: 2
+          x: 67.2
+          y: 509.9999
+          width: 200
+          height: 60
+        - serializedVersion: 2
+          x: 472.00006
+          y: 518
+          width: 200
+          height: 60
+      optionsFile: {fileID: 0}
+      selectedOptions: 
+      optionsText: []
+      optionsPositions: []
+    optionsFile: {fileID: 0}
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+  - currentIndex: 1
+    rect:
+      serializedVersion: 2
+      x: 276.00003
+      y: 172.00005
+      width: 200
+      height: 160
+    dialogue:
+      dialogueName: Diag 2
+      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      character: {fileID: 6792867503427888399, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 1
+    verse: Don't worry about it too much
+    selectedLineIndex: 1
+    isCondition: 0
+    isDraggable: 0
+    numOfConditions: 0
+    children:
+    - currentIndex: 2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 330.4002
+        width: 400
+        height: 120
+      dialogue:
+        dialogueName: Diag 1
+        dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+        character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+      chosenDialogueIndex: 0
+      verse: 
+      selectedLineIndex: 0
+      isCondition: 1
+      isDraggable: 0
+      numOfConditions: 2
+      children:
+      - currentIndex: 3
+        rect:
+          serializedVersion: 2
+          x: 65.600006
+          y: 575.1988
+          width: 200
+          height: 160
+        dialogue:
+          dialogueName: Diag 1
+          dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+          character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+        chosenDialogueIndex: 0
+        verse: Don't worry about it too much
+        selectedLineIndex: 1
+        isCondition: 0
+        isDraggable: 0
+        numOfConditions: 0
+        children: []
+        optionsFile: {fileID: 0}
+        selectedOptions: 
+        optionsText: []
+        optionsPositions: []
+      - currentIndex: 4
+        rect:
+          serializedVersion: 2
+          x: 474.39993
+          y: 582.3986
+          width: 200
+          height: 160
+        dialogue:
+          dialogueName: Diag 1
+          dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+          character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+        chosenDialogueIndex: 0
+        verse: This is a test file.
+        selectedLineIndex: 0
+        isCondition: 0
+        isDraggable: 0
+        numOfConditions: 0
+        children: []
+        optionsFile: {fileID: 0}
+        selectedOptions: 
+        optionsText: []
+        optionsPositions: []
+      optionsFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      selectedOptions: 0000000001000000
+      optionsText:
+      - This is a test file.
+      - Don't worry about it too much
+      optionsPositions:
+      - serializedVersion: 2
+        x: 67.2
+        y: 509.9999
+        width: 200
+        height: 60
+      - serializedVersion: 2
+        x: 472.00006
+        y: 518
+        width: 200
+        height: 60
+    optionsFile: {fileID: 0}
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+  - currentIndex: 2
+    rect:
+      serializedVersion: 2
+      x: 168
+      y: 330.4002
+      width: 400
+      height: 120
+    dialogue:
+      dialogueName: Diag 1
+      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    isCondition: 1
+    isDraggable: 0
+    numOfConditions: 2
+    children:
+    - currentIndex: 3
+      rect:
+        serializedVersion: 2
+        x: 65.600006
+        y: 575.1988
+        width: 200
+        height: 160
+      dialogue:
+        dialogueName: Diag 1
+        dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+        character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+      chosenDialogueIndex: 0
+      verse: Don't worry about it too much
+      selectedLineIndex: 1
+      isCondition: 0
+      isDraggable: 0
+      numOfConditions: 0
+      children: []
+      optionsFile: {fileID: 0}
+      selectedOptions: 
+      optionsText: []
+      optionsPositions: []
+    - currentIndex: 4
+      rect:
+        serializedVersion: 2
+        x: 474.39993
+        y: 582.3986
+        width: 200
+        height: 160
+      dialogue:
+        dialogueName: Diag 1
+        dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+        character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+      chosenDialogueIndex: 0
+      verse: This is a test file.
+      selectedLineIndex: 0
+      isCondition: 0
+      isDraggable: 0
+      numOfConditions: 0
+      children: []
+      optionsFile: {fileID: 0}
+      selectedOptions: 
+      optionsText: []
+      optionsPositions: []
+    optionsFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+    selectedOptions: 0000000001000000
+    optionsText:
+    - This is a test file.
+    - Don't worry about it too much
+    optionsPositions:
+    - serializedVersion: 2
+      x: 67.2
+      y: 509.9999
+      width: 200
+      height: 60
+    - serializedVersion: 2
+      x: 472.00006
+      y: 518
+      width: 200
+      height: 60
+  - currentIndex: 3
+    rect:
+      serializedVersion: 2
+      x: 65.600006
+      y: 575.1988
+      width: 200
+      height: 160
+    dialogue:
+      dialogueName: Diag 1
+      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 0
+    verse: Don't worry about it too much
+    selectedLineIndex: 1
+    isCondition: 0
+    isDraggable: 0
+    numOfConditions: 0
+    children: []
+    optionsFile: {fileID: 0}
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+  - currentIndex: 4
+    rect:
+      serializedVersion: 2
+      x: 474.39993
+      y: 582.3986
+      width: 200
+      height: 160
+    dialogue:
+      dialogueName: Diag 1
+      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 0
+    verse: This is a test file.
+    selectedLineIndex: 0
+    isCondition: 0
+    isDraggable: 0
+    numOfConditions: 0
+    children: []
+    optionsFile: {fileID: 0}
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
