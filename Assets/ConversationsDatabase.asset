@@ -1,5 +1,508 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4289191604263268604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37b2533393ca97b49a3f41e38549e61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Conversation
+  conversationName: Hytale_Conversation
+  dialogues:
+  - dialogueName: Arin-Dialogue
+    dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+    character: {fileID: 1049225644596111083, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+  - dialogueName: Archie-Dialogue
+    dialogueFile: {fileID: 4900000, guid: 3cc80bbfe7dce6c4c9905be1c5592406, type: 3}
+    character: {fileID: 7145295043633235004, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+  nodesList:
+  - nodeType: 0
+    currentIndex: 0
+    rect:
+      serializedVersion: 2
+      x: 284
+      y: 1.5999985
+      width: 200
+      height: 160
+    id: 15
+    childIds: 10000000
+    dialogue:
+      dialogueName: Arin-Dialogue
+      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      character: {fileID: 1049225644596111083, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 0
+    verse: Did you see the latest Hytale footage? The world feels alive - like every
+      biome has a story.
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 0
+  - nodeType: 0
+    currentIndex: 1
+    rect:
+      serializedVersion: 2
+      x: 284.80002
+      y: 164.79999
+      width: 200
+      height: 160
+    id: 16
+    childIds: 18000000
+    dialogue:
+      dialogueName: Archie-Dialogue
+      dialogueFile: {fileID: 4900000, guid: 3cc80bbfe7dce6c4c9905be1c5592406, type: 3}
+      character: {fileID: 7145295043633235004, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 1
+    verse: Footage is one thing. Systems are another. Ambition can collapse if the
+      foundation isn't solid.
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 0
+  - nodeType: 2
+    currentIndex: 2
+    rect:
+      serializedVersion: 2
+      x: 275.2
+      y: 327.19998
+      width: 220
+      height: 149
+    id: 24
+    childIds: 11000000
+    dialogue:
+      dialogueName: 
+      dialogueFile: {fileID: 0}
+      character: {fileID: 0}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: SampleUIController
+    methodName: TransitionBackground
+    parameters:
+    - name: bg
+      typeName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      intValue: 0
+      floatValue: 0
+      stringValue: 
+      boolValue: 0
+      objectValue: {fileID: -294754933986080546, guid: 30036c413563b8e4f8c50d2b7de8c12b, type: 3}
+    isDraggable: 1
+  - nodeType: 0
+    currentIndex: 3
+    rect:
+      serializedVersion: 2
+      x: 282.39996
+      y: 475.99997
+      width: 200
+      height: 160
+    id: 17
+    childIds: 12000000
+    dialogue:
+      dialogueName: Arin-Dialogue
+      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      character: {fileID: 1049225644596111083, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 0
+    verse: Procedural worlds, deep modding tools, RPG systems... it feels like the
+      game Minecraft always wanted to become.
+    selectedLineIndex: 1
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 0
+  - nodeType: 0
+    currentIndex: 4
+    rect:
+      serializedVersion: 2
+      x: 283.19992
+      y: 640.00024
+      width: 200
+      height: 160
+    id: 18
+    childIds: 1b000000
+    dialogue:
+      dialogueName: Archie-Dialogue
+      dialogueFile: {fileID: 4900000, guid: 3cc80bbfe7dce6c4c9905be1c5592406, type: 3}
+      character: {fileID: 7145295043633235004, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 1
+    verse: Or like a promise that's too big to keep.
+    selectedLineIndex: 1
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 0
+  - nodeType: 2
+    currentIndex: 5
+    rect:
+      serializedVersion: 2
+      x: 274.40002
+      y: 802.4
+      width: 220
+      height: 120
+    id: 27
+    childIds: 13000000
+    dialogue:
+      dialogueName: 
+      dialogueFile: {fileID: 0}
+      character: {fileID: 0}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: SampleUIController
+    methodName: ToggleOptions
+    parameters: []
+    isDraggable: 1
+  - nodeType: 1
+    currentIndex: 6
+    rect:
+      serializedVersion: 2
+      x: 183.99991
+      y: 923.2002
+      width: 400
+      height: 120
+    id: 19
+    childIds: 1a00000019000000
+    dialogue:
+      dialogueName: Arin-Dialogue
+      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      character: {fileID: 1049225644596111083, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    numOfConditions: 2
+    selectedOptions: 0100000000000000
+    optionsText:
+    - I'm worried expectations might ruin it.
+    - I think Hytale could redefine sandbox games.
+    optionsPositions:
+    - serializedVersion: 2
+      x: 473.59995
+      y: 1078.7998
+      width: 200
+      height: 60
+    - serializedVersion: 2
+      x: 52.000015
+      y: 1075.6001
+      width: 200
+      height: 60
+    optionsFile: {fileID: 4900000, guid: aac236603138c36468e78c67f10cddfa, type: 3}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 1
+  - nodeType: 2
+    currentIndex: 7
+    rect:
+      serializedVersion: 2
+      x: 44.800034
+      y: 1137.6
+      width: 220
+      height: 120
+    id: 25
+    childIds: 1c000000
+    dialogue:
+      dialogueName: 
+      dialogueFile: {fileID: 0}
+      character: {fileID: 0}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: SampleUIController
+    methodName: ToggleOptions
+    parameters: []
+    isDraggable: 1
+  - nodeType: 2
+    currentIndex: 8
+    rect:
+      serializedVersion: 2
+      x: 464.80005
+      y: 1138.3994
+      width: 220
+      height: 120
+    id: 26
+    childIds: 1d000000
+    dialogue:
+      dialogueName: 
+      dialogueFile: {fileID: 0}
+      character: {fileID: 0}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: SampleUIController
+    methodName: ToggleOptions
+    parameters: []
+    isDraggable: 1
+  - nodeType: 2
+    currentIndex: 9
+    rect:
+      serializedVersion: 2
+      x: 46.399994
+      y: 1257.6001
+      width: 220
+      height: 149
+    id: 28
+    childIds: 14000000
+    dialogue:
+      dialogueName: 
+      dialogueFile: {fileID: 0}
+      character: {fileID: 0}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: SampleUIController
+    methodName: TransitionBackground
+    parameters:
+    - name: bg
+      typeName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      intValue: 0
+      floatValue: 0
+      stringValue: 
+      boolValue: 0
+      objectValue: {fileID: -3227604713774432372, guid: c7b4e875271d2394795a1c728b276a8a, type: 3}
+    isDraggable: 1
+  - nodeType: 2
+    currentIndex: 10
+    rect:
+      serializedVersion: 2
+      x: 464.7999
+      y: 1260.7997
+      width: 220
+      height: 149
+    id: 29
+    childIds: 16000000
+    dialogue:
+      dialogueName: 
+      dialogueFile: {fileID: 0}
+      character: {fileID: 0}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: SampleUIController
+    methodName: TransitionBackground
+    parameters:
+    - name: bg
+      typeName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      intValue: 0
+      floatValue: 0
+      stringValue: 
+      boolValue: 0
+      objectValue: {fileID: 3210762320809586454, guid: 7baf5f155aea6cf4e84173cf54317ad6, type: 3}
+    isDraggable: 1
+  - nodeType: 0
+    currentIndex: 11
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 1368.0004
+      width: 200
+      height: 160
+    id: 20
+    childIds: 15000000
+    dialogue:
+      dialogueName: Arin-Dialogue
+      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      character: {fileID: 1049225644596111083, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 0
+    verse: Exactly! If they nail exploration and storytelling, this could be something
+      special.
+    selectedLineIndex: 2
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 1
+  - nodeType: 0
+    currentIndex: 12
+    rect:
+      serializedVersion: 2
+      x: 473.60016
+      y: 1383.1996
+      width: 200
+      height: 160
+    id: 22
+    childIds: 17000000
+    dialogue:
+      dialogueName: Arin-Dialogue
+      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
+      character: {fileID: 1049225644596111083, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 0
+    verse: That's my concern too. Hype has crushed better projects.
+    selectedLineIndex: 3
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 1
+  - nodeType: 0
+    currentIndex: 13
+    rect:
+      serializedVersion: 2
+      x: 47.99997
+      y: 1530.3994
+      width: 200
+      height: 160
+    id: 21
+    childIds: 
+    dialogue:
+      dialogueName: Archie-Dialogue
+      dialogueFile: {fileID: 4900000, guid: 3cc80bbfe7dce6c4c9905be1c5592406, type: 3}
+      character: {fileID: 7145295043633235004, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 1
+    verse: Then I hope they take their time. A world like that deserves patience.
+    selectedLineIndex: 2
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 1
+  - nodeType: 0
+    currentIndex: 14
+    rect:
+      serializedVersion: 2
+      x: 472.80005
+      y: 1543.1989
+      width: 200
+      height: 160
+    id: 23
+    childIds: 
+    dialogue:
+      dialogueName: Archie-Dialogue
+      dialogueFile: {fileID: 4900000, guid: 3cc80bbfe7dce6c4c9905be1c5592406, type: 3}
+      character: {fileID: 7145295043633235004, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
+    chosenDialogueIndex: 1
+    verse: Maybe... but even trying something this bold matters.
+    selectedLineIndex: 3
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 1
+  - nodeType: 2
+    currentIndex: 15
+    rect:
+      serializedVersion: 2
+      x: 77.599945
+      y: 2089.4
+      width: 220
+      height: 120
+    id: 14
+    childIds: 0d000000
+    dialogue:
+      dialogueName: 
+      dialogueFile: {fileID: 0}
+      character: {fileID: 0}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 1
+  - nodeType: 2
+    currentIndex: 16
+    rect:
+      serializedVersion: 2
+      x: 75.99997
+      y: 2680.7988
+      width: 220
+      height: 120
+    id: 13
+    childIds: 
+    dialogue:
+      dialogueName: 
+      dialogueFile: {fileID: 0}
+      character: {fileID: 0}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: 
+    methodName: 
+    parameters: []
+    isDraggable: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,369 +516,4 @@ MonoBehaviour:
   m_Name: ConversationsDatabase
   m_EditorClassIdentifier: 
   conversations:
-  - {fileID: 8620736005915737108}
---- !u!114 &8620736005915737108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37b2533393ca97b49a3f41e38549e61e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  conversationName: Convo 1
-  dialogues:
-  - dialogueName: Diag 1
-    dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-    character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-  - dialogueName: Diag 2
-    dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-    character: {fileID: 6792867503427888399, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-  nodesList:
-  - currentIndex: 0
-    rect:
-      serializedVersion: 2
-      x: 276
-      y: 10.400002
-      width: 200
-      height: 160
-    dialogue:
-      dialogueName: Diag 1
-      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-      character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-    chosenDialogueIndex: 0
-    verse: This is a test file.
-    selectedLineIndex: 0
-    isCondition: 0
-    isDraggable: 1
-    numOfConditions: 0
-    children:
-    - currentIndex: 1
-      rect:
-        serializedVersion: 2
-        x: 276.00003
-        y: 172.00005
-        width: 200
-        height: 160
-      dialogue:
-        dialogueName: Diag 2
-        dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-        character: {fileID: 6792867503427888399, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-      chosenDialogueIndex: 1
-      verse: Don't worry about it too much
-      selectedLineIndex: 1
-      isCondition: 0
-      isDraggable: 0
-      numOfConditions: 0
-      children:
-      - currentIndex: 2
-        rect:
-          serializedVersion: 2
-          x: 168
-          y: 330.4002
-          width: 400
-          height: 120
-        dialogue:
-          dialogueName: Diag 1
-          dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-          character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-        chosenDialogueIndex: 0
-        verse: 
-        selectedLineIndex: 0
-        isCondition: 1
-        isDraggable: 0
-        numOfConditions: 2
-        children:
-        - currentIndex: 3
-          rect:
-            serializedVersion: 2
-            x: 65.600006
-            y: 575.1988
-            width: 200
-            height: 160
-          dialogue:
-            dialogueName: Diag 1
-            dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-            character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-          chosenDialogueIndex: 0
-          verse: Don't worry about it too much
-          selectedLineIndex: 1
-          isCondition: 0
-          isDraggable: 0
-          numOfConditions: 0
-          children: []
-          optionsFile: {fileID: 0}
-          selectedOptions: 
-          optionsText: []
-          optionsPositions: []
-        - currentIndex: 4
-          rect:
-            serializedVersion: 2
-            x: 474.39993
-            y: 582.3986
-            width: 200
-            height: 160
-          dialogue:
-            dialogueName: Diag 1
-            dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-            character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-          chosenDialogueIndex: 0
-          verse: This is a test file.
-          selectedLineIndex: 0
-          isCondition: 0
-          isDraggable: 0
-          numOfConditions: 0
-          children: []
-          optionsFile: {fileID: 0}
-          selectedOptions: 
-          optionsText: []
-          optionsPositions: []
-        optionsFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-        selectedOptions: 0000000001000000
-        optionsText:
-        - This is a test file.
-        - Don't worry about it too much
-        optionsPositions:
-        - serializedVersion: 2
-          x: 67.2
-          y: 509.9999
-          width: 200
-          height: 60
-        - serializedVersion: 2
-          x: 472.00006
-          y: 518
-          width: 200
-          height: 60
-      optionsFile: {fileID: 0}
-      selectedOptions: 
-      optionsText: []
-      optionsPositions: []
-    optionsFile: {fileID: 0}
-    selectedOptions: 
-    optionsText: []
-    optionsPositions: []
-  - currentIndex: 1
-    rect:
-      serializedVersion: 2
-      x: 276.00003
-      y: 172.00005
-      width: 200
-      height: 160
-    dialogue:
-      dialogueName: Diag 2
-      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-      character: {fileID: 6792867503427888399, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-    chosenDialogueIndex: 1
-    verse: Don't worry about it too much
-    selectedLineIndex: 1
-    isCondition: 0
-    isDraggable: 0
-    numOfConditions: 0
-    children:
-    - currentIndex: 2
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 330.4002
-        width: 400
-        height: 120
-      dialogue:
-        dialogueName: Diag 1
-        dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-        character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-      chosenDialogueIndex: 0
-      verse: 
-      selectedLineIndex: 0
-      isCondition: 1
-      isDraggable: 0
-      numOfConditions: 2
-      children:
-      - currentIndex: 3
-        rect:
-          serializedVersion: 2
-          x: 65.600006
-          y: 575.1988
-          width: 200
-          height: 160
-        dialogue:
-          dialogueName: Diag 1
-          dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-          character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-        chosenDialogueIndex: 0
-        verse: Don't worry about it too much
-        selectedLineIndex: 1
-        isCondition: 0
-        isDraggable: 0
-        numOfConditions: 0
-        children: []
-        optionsFile: {fileID: 0}
-        selectedOptions: 
-        optionsText: []
-        optionsPositions: []
-      - currentIndex: 4
-        rect:
-          serializedVersion: 2
-          x: 474.39993
-          y: 582.3986
-          width: 200
-          height: 160
-        dialogue:
-          dialogueName: Diag 1
-          dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-          character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-        chosenDialogueIndex: 0
-        verse: This is a test file.
-        selectedLineIndex: 0
-        isCondition: 0
-        isDraggable: 0
-        numOfConditions: 0
-        children: []
-        optionsFile: {fileID: 0}
-        selectedOptions: 
-        optionsText: []
-        optionsPositions: []
-      optionsFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-      selectedOptions: 0000000001000000
-      optionsText:
-      - This is a test file.
-      - Don't worry about it too much
-      optionsPositions:
-      - serializedVersion: 2
-        x: 67.2
-        y: 509.9999
-        width: 200
-        height: 60
-      - serializedVersion: 2
-        x: 472.00006
-        y: 518
-        width: 200
-        height: 60
-    optionsFile: {fileID: 0}
-    selectedOptions: 
-    optionsText: []
-    optionsPositions: []
-  - currentIndex: 2
-    rect:
-      serializedVersion: 2
-      x: 168
-      y: 330.4002
-      width: 400
-      height: 120
-    dialogue:
-      dialogueName: Diag 1
-      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-      character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-    chosenDialogueIndex: 0
-    verse: 
-    selectedLineIndex: 0
-    isCondition: 1
-    isDraggable: 0
-    numOfConditions: 2
-    children:
-    - currentIndex: 3
-      rect:
-        serializedVersion: 2
-        x: 65.600006
-        y: 575.1988
-        width: 200
-        height: 160
-      dialogue:
-        dialogueName: Diag 1
-        dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-        character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-      chosenDialogueIndex: 0
-      verse: Don't worry about it too much
-      selectedLineIndex: 1
-      isCondition: 0
-      isDraggable: 0
-      numOfConditions: 0
-      children: []
-      optionsFile: {fileID: 0}
-      selectedOptions: 
-      optionsText: []
-      optionsPositions: []
-    - currentIndex: 4
-      rect:
-        serializedVersion: 2
-        x: 474.39993
-        y: 582.3986
-        width: 200
-        height: 160
-      dialogue:
-        dialogueName: Diag 1
-        dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-        character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-      chosenDialogueIndex: 0
-      verse: This is a test file.
-      selectedLineIndex: 0
-      isCondition: 0
-      isDraggable: 0
-      numOfConditions: 0
-      children: []
-      optionsFile: {fileID: 0}
-      selectedOptions: 
-      optionsText: []
-      optionsPositions: []
-    optionsFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-    selectedOptions: 0000000001000000
-    optionsText:
-    - This is a test file.
-    - Don't worry about it too much
-    optionsPositions:
-    - serializedVersion: 2
-      x: 67.2
-      y: 509.9999
-      width: 200
-      height: 60
-    - serializedVersion: 2
-      x: 472.00006
-      y: 518
-      width: 200
-      height: 60
-  - currentIndex: 3
-    rect:
-      serializedVersion: 2
-      x: 65.600006
-      y: 575.1988
-      width: 200
-      height: 160
-    dialogue:
-      dialogueName: Diag 1
-      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-      character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-    chosenDialogueIndex: 0
-    verse: Don't worry about it too much
-    selectedLineIndex: 1
-    isCondition: 0
-    isDraggable: 0
-    numOfConditions: 0
-    children: []
-    optionsFile: {fileID: 0}
-    selectedOptions: 
-    optionsText: []
-    optionsPositions: []
-  - currentIndex: 4
-    rect:
-      serializedVersion: 2
-      x: 474.39993
-      y: 582.3986
-      width: 200
-      height: 160
-    dialogue:
-      dialogueName: Diag 1
-      dialogueFile: {fileID: 4900000, guid: 2d533b0880464b749b99a824b375ed0f, type: 3}
-      character: {fileID: -968794738832852112, guid: d9b14688e8ea38b488100e24038d5f6f, type: 2}
-    chosenDialogueIndex: 0
-    verse: This is a test file.
-    selectedLineIndex: 0
-    isCondition: 0
-    isDraggable: 0
-    numOfConditions: 0
-    children: []
-    optionsFile: {fileID: 0}
-    selectedOptions: 
-    optionsText: []
-    optionsPositions: []
+  - {fileID: -4289191604263268604}

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0D6B187D-0ABE-50B3-0D04-631193BA2041}</ProjectGuid>
+    <ProjectGuid>{2BD7633E-57B7-2382-E477-0370D9ADCE99}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,12 +62,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\ConversationsDatabase.cs" />
+    <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\RuntimeFunctionRegistry.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\Dialogue.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\Character.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\ConversationNode.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\ConversationDropdownDrawer.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\CharacterDatabase.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\Conversation.cs" />
+    <Compile Include="Assets\com.Snype.visualnovel\Samples\SampleUIController.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\DialogueSystem.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -87,9 +89,11 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\com.Snype.visualnovel\Resources\Samples\SampleOptionsFile.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\com.Snype.visualnovel\Resources\Samples\SampleDialogueFile_Archie.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\com.Snype.visualnovel\Resources\DialogueFile.txt" />
+    <None Include="Assets\com.Snype.visualnovel\Resources\Samples\SampleDialogueFile_Arin.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />

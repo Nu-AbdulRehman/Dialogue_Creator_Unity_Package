@@ -1,0 +1,1348 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mabdu" at "2026-01-15T11:06:03.4939298Z"
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 11995 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-01-15T11:06:03Z
+
+COMMAND LINE ARGUMENTS:
+C:\Users\mabdu\Software\Unity\UnityVersions\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/mabdu/Software/GitHub-Repos/Dialogue_Creator_Unity_Package
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59494
+-licensingIpc
+LicenseClient-mabdu
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/mabdu/Software/GitHub-Repos/Dialogue_Creator_Unity_Package
+C:/Users/mabdu/Software/GitHub-Repos/Dialogue_Creator_Unity_Package
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [49300]  Target information:
+
+Player connection [49300]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 626080845 [EditorId] 626080845 [Version] 1048832 [Id] WindowsEditor(7,AbdulRehman-LOQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [49300]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 626080845 [EditorId] 626080845 [Version] 1048832 [Id] WindowsEditor(7,AbdulRehman-LOQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [49300] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [49300] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 57376, path: "C:/Users/mabdu/Software/Unity/UnityHub/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              98e99dbe1abe40328a998f1e44ca206f
+  Correlation Id:          c2d5052e3d7c6538e1bcadab34a82181
+  External correlation Id: 8208977048878310960
+  Machine Id:              7F/eLCRCKqwmUfxuyLaZ13Qr608=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mabdu" (connect: 0.00s, validation: 0.01s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mabdu-notifications" at "2026-01-15T11:06:03.5621844Z"
+[Licensing::Module] Licensing Background thread has ended after 0.07s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mabdu/Software/GitHub-Repos/Dialogue_Creator_Unity_Package/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.8186
+Initialize mono
+Mono path[0] = 'C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T12:02:45Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T12:02:45Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.016485 seconds.
+- Loaded All Assemblies, in  0.607 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 358 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.854 seconds
+Domain Reload Profiling: 1458ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (199ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (193ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (854ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (793ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (485ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T12:02:45Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.284 seconds
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.014 seconds
+Domain Reload Profiling: 2290ms
+	BeginReloadAssembly (335ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (817ms)
+		LoadAssemblies (569ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (416ms)
+			TypeCache.Refresh (297ms)
+				TypeCache.ScanAssembly (275ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1014ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (817ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6732 unused Assets / (5.0 MB). Loaded Objects now: 7459.
+Memory consumption went from 140.8 MB to 135.8 MB.
+Total: 9.024100 ms (FindLiveObjects: 0.631400 ms CreateObjectMapping: 0.593200 ms MarkObjects: 5.412900 ms  DeleteObjects: 2.384700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2666720.286769 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/SampleOptionsFile.txt
+  artifactKey: Guid(aac236603138c36468e78c67f10cddfa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Resources/SampleOptionsFile.txt using Guid(aac236603138c36468e78c67f10cddfa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53b9e72c82275a62ce06b2dd8957710b') in 0.1879873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/DialogueFile.txt
+  artifactKey: Guid(2d533b0880464b749b99a824b375ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Resources/DialogueFile.txt using Guid(2d533b0880464b749b99a824b375ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed165f04b782c681165a3f432fc6f177') in 0.0246862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.227722 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/SampleDialogueFile.txt
+  artifactKey: Guid(2d533b0880464b749b99a824b375ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Resources/SampleDialogueFile.txt using Guid(2d533b0880464b749b99a824b375ed0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3c72306266f3e3ff064af974973cff8') in 0.0012829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.835248 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/SampleDialogueFile.txt
+  artifactKey: Guid(2d533b0880464b749b99a824b375ed0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Resources/SampleDialogueFile.txt using Guid(2d533b0880464b749b99a824b375ed0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '827be198fa1e39317d2c0de0d56aebb7') in 0.0255535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.648038 seconds.
+  path: Assets/com.Snype.visualnovel/Resources
+  artifactKey: Guid(80d22c03161a6f24b9208a8c318f8bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Resources using Guid(80d22c03161a6f24b9208a8c318f8bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd23528836269507955ad584982e557bd') in 0.0014225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.968921 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/Samples
+  artifactKey: Guid(96a20b59b1fc3234aaf17b8555d23344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Resources/Samples using Guid(96a20b59b1fc3234aaf17b8555d23344) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87a354476d0b4ad84a2be28ee73612ae') in 0.0022922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.904528 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/Samples
+  artifactKey: Guid(96a20b59b1fc3234aaf17b8555d23344) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Resources/Samples using Guid(96a20b59b1fc3234aaf17b8555d23344) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a0aa8ac323a280f2fb957a8d1c96e3f') in 0.0453903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.079964 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/Samples/SampleDialogueFile.txt
+  artifactKey: Guid(2d533b0880464b749b99a824b375ed0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Resources/Samples/SampleDialogueFile.txt using Guid(2d533b0880464b749b99a824b375ed0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fce3ebecda82ef2a5a8fb136b9eddcf8') in 0.0306488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.986634 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/Samples/SampleOptionsFile.txt
+  artifactKey: Guid(aac236603138c36468e78c67f10cddfa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Resources/Samples/SampleOptionsFile.txt using Guid(aac236603138c36468e78c67f10cddfa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b5faeac0b7764caddb76efe2e37a581') in 0.0251747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.341032 seconds.
+  path: Assets/com.Snype.visualnovel/Samples
+  artifactKey: Guid(722a853f31dd73d4db38ec2bfb611081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples using Guid(722a853f31dd73d4db38ec2bfb611081) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b349fd8dbedd83b73325d79455059c15') in 0.0134366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.173823 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets
+  artifactKey: Guid(7cf0c3b0db3a51642b3dd31243caa8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets using Guid(7cf0c3b0db3a51642b3dd31243caa8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c74e32effdc3cdec2455373b0d3302fc') in 0.0012129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.876059 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets
+  artifactKey: Guid(7cf0c3b0db3a51642b3dd31243caa8d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets using Guid(7cf0c3b0db3a51642b3dd31243caa8d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60aaa50fac52c5a57fed7eb014d12a13') in 0.0227916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.974677 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_red.png
+  artifactKey: Guid(0f53748c17de38d4195d1b21be1d7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_red.png using Guid(0f53748c17de38d4195d1b21be1d7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T12:02:45Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T12:02:45Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+ -> (artifact id: '7b65c8f910fca6e83a3320c9a52af836') in 0.1676894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_pink.png
+  artifactKey: Guid(2d33dc02bdd96784f83ea2298cdb4bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_pink.png using Guid(2d33dc02bdd96784f83ea2298cdb4bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00a28818ffacf04788f02842e80f9506') in 0.0325306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_purple.png
+  artifactKey: Guid(c900f4505f24c674bbb61e0545e16d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_purple.png using Guid(c900f4505f24c674bbb61e0545e16d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2536ec31a4dc8a383f9fde20ec53236') in 0.0346827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_red.png
+  artifactKey: Guid(ec2438d6a0f2c344a9a778743762aaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_red.png using Guid(ec2438d6a0f2c344a9a778743762aaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc04e66ea1d3b7056cf8237ff40de14c') in 0.0359418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_orange.png
+  artifactKey: Guid(8ce0a843a2a39ed478a71cc52a2056c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_orange.png using Guid(8ce0a843a2a39ed478a71cc52a2056c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59a0a586d3c00dbef34276994bc143dd') in 0.0360796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_yellow.png
+  artifactKey: Guid(ddc086cbecd988943acc666c578c8ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_yellow.png using Guid(ddc086cbecd988943acc666c578c8ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6dab80af03962a90d7a86af811daac3') in 0.0370494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_orange.png
+  artifactKey: Guid(0ae421ee2b1a7f24eadb766693cfc7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_orange.png using Guid(0ae421ee2b1a7f24eadb766693cfc7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa22458614d1d51bcadbec843230b9c4') in 0.0334265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_red.png
+  artifactKey: Guid(c5bb6535cd962bc468b06c069ecec2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_red.png using Guid(c5bb6535cd962bc468b06c069ecec2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d284b02d37b476dfc6a82a45ad67873') in 0.032749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109169 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_blue.png
+  artifactKey: Guid(1da7fbb3947311f49b099b0b17714f88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_blue.png using Guid(1da7fbb3947311f49b099b0b17714f88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e065da0897fc8ecfd628d35ded63c5d5') in 0.1255419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_pink.png
+  artifactKey: Guid(2f3f8c410991cce449529d20cba444ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_pink.png using Guid(2f3f8c410991cce449529d20cba444ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89fbbaa6ccc3f3a192e504bccb1b1796') in 0.0556476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_purple.png
+  artifactKey: Guid(c900f4505f24c674bbb61e0545e16d20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_purple.png using Guid(c900f4505f24c674bbb61e0545e16d20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3ae9753e95c84686dfe2ce2f26ecbe1') in 0.0399166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_blue.png
+  artifactKey: Guid(1645075a861e06d4c824954aa315d19e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_blue.png using Guid(1645075a861e06d4c824954aa315d19e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8a3c89300a247156c71d2a3fde46787') in 0.0456708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_purple.png
+  artifactKey: Guid(052cac805dbad18408921850b075bb5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_purple.png using Guid(052cac805dbad18408921850b075bb5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22d2d96e67d9d1079a338f970a462591') in 0.0348968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_blue.png
+  artifactKey: Guid(ba92973394e8ad7419c7d1fe8df1a673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_blue.png using Guid(ba92973394e8ad7419c7d1fe8df1a673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7174b12b0fe7dc17f15d55b2b330e3eb') in 0.0278231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_pink.png
+  artifactKey: Guid(923b9704dc3af1944a9c287878eb6ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_pink.png using Guid(923b9704dc3af1944a9c287878eb6ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc96da7b358a0e76c36a585dab00fbde') in 0.0275714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_green.png
+  artifactKey: Guid(50703107a7c4ce9499b792a65baf4ac6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_green.png using Guid(50703107a7c4ce9499b792a65baf4ac6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '230b17f5c343f11075ef2782fbd5b183') in 0.0488195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_purple.png
+  artifactKey: Guid(5f6fe78f122555b469998492cfe13783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_purple.png using Guid(5f6fe78f122555b469998492cfe13783) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92d99ea20e4abfd7950a44683e3a4c59') in 0.0293486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_pink.png
+  artifactKey: Guid(cb7471f521354b64b9c7be175368c6d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_pink.png using Guid(cb7471f521354b64b9c7be175368c6d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdf746f34c78ea7f28fd7d9cde956a58') in 0.0412467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_hover.png
+  artifactKey: Guid(1e1e83e568ea4cb4ab78b8856273f209) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_hover.png using Guid(1e1e83e568ea4cb4ab78b8856273f209) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39201bad4f202b70ff435343dcddc33c') in 0.0346951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_pink.png
+  artifactKey: Guid(21b1b6db3bb8cc345b2f7b1b323ce2f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_pink.png using Guid(21b1b6db3bb8cc345b2f7b1b323ce2f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93d049511df3cf1f5dc8e16d68bd11cf') in 0.0358729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_yellow.png
+  artifactKey: Guid(c7caa58f79ba6114e8ed95aaaf01612d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_yellow.png using Guid(c7caa58f79ba6114e8ed95aaaf01612d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0d4317d877979509f89ec8ee4cd55c0') in 0.0394355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_red.png
+  artifactKey: Guid(ed43c99e8c88b2949ad7b4e935887f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_red.png using Guid(ed43c99e8c88b2949ad7b4e935887f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c710d78a3d6970b860964428d6d2fe34') in 0.0258323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_red.png
+  artifactKey: Guid(0827f3d47a013ff47a9627552643369f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_red.png using Guid(0827f3d47a013ff47a9627552643369f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '466f9852b972b0598cb820c0fe4da774') in 0.028248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_red.png
+  artifactKey: Guid(c5bb6535cd962bc468b06c069ecec2c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_red.png using Guid(c5bb6535cd962bc468b06c069ecec2c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '945a6a331c94fa6437cc8a25a48dcc6e') in 0.032138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_purple.png
+  artifactKey: Guid(a2271b3feb2213c47bbdc2c1186f24a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_purple.png using Guid(a2271b3feb2213c47bbdc2c1186f24a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b63c2ba9895100351f5c490ebb009171') in 0.0299676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_green.png
+  artifactKey: Guid(eab76aacf8fe41246b4e26a70bb68f4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_green.png using Guid(eab76aacf8fe41246b4e26a70bb68f4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7af4d8b33a73c4589216dd9049928ca0') in 0.0379033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_blue.png
+  artifactKey: Guid(723171b063aca0549811613088430a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_blue.png using Guid(723171b063aca0549811613088430a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd60dcde187124bca4b2daac200bd8e93') in 0.0275295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_yellow.png
+  artifactKey: Guid(19467cd75c5f8fd4b9ed4d061ad3894f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_yellow.png using Guid(19467cd75c5f8fd4b9ed4d061ad3894f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67d186d604c9f7d85fa5d3aee6d9c0a3') in 0.0415611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_orange.png
+  artifactKey: Guid(46518aafed4020f499d117ff06d564be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_orange.png using Guid(46518aafed4020f499d117ff06d564be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '847274e8aabde7718c21db98275bda06') in 0.0388138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_orange.png
+  artifactKey: Guid(2a91ae0b2408dc3498c47cc3a686e1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_orange.png using Guid(2a91ae0b2408dc3498c47cc3a686e1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6c2c7c2b918bc1aaf19aa436cdb9036') in 0.039439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_yellow.png
+  artifactKey: Guid(03f6a183c3984dc4385bab704b22f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_yellow.png using Guid(03f6a183c3984dc4385bab704b22f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f32e0fc14f9d3153210f47c13b1429c5') in 0.0315396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_purple.png
+  artifactKey: Guid(492a6ba6b4fc16044987158fe220312f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_purple.png using Guid(492a6ba6b4fc16044987158fe220312f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aed8103282e7d70c1f8c7ff3644327bd') in 0.0471453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_blue.png
+  artifactKey: Guid(dfb9cb450a23cf64aa784d7873ec39b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_blue.png using Guid(dfb9cb450a23cf64aa784d7873ec39b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89db56af11350a71b29745096f8e9275') in 0.029304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_green.png
+  artifactKey: Guid(bfcba053f0eae9d41a9220ea0d3fecf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_green.png using Guid(bfcba053f0eae9d41a9220ea0d3fecf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7921eeecfa95af0dcb4eb29c904a119') in 0.0286882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_red.png
+  artifactKey: Guid(8a1b172a3330f614989fc12b26874beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_red.png using Guid(8a1b172a3330f614989fc12b26874beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eed83bc8835beb34dcdec13f4b92fa02') in 0.0278351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_purple.png
+  artifactKey: Guid(ce01b0dbd34971746bafc8b02121e5bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_purple.png using Guid(ce01b0dbd34971746bafc8b02121e5bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45af7c3df6d71578cfb32a2f4f4eabbd') in 0.0383473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_purple.png
+  artifactKey: Guid(492a6ba6b4fc16044987158fe220312f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_purple.png using Guid(492a6ba6b4fc16044987158fe220312f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e6e96080a4ad143daa375afa30b7ae1') in 0.0285464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_blue.png
+  artifactKey: Guid(dfb9cb450a23cf64aa784d7873ec39b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_blue.png using Guid(dfb9cb450a23cf64aa784d7873ec39b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe5cded0cd6a013412aea8e6e06a23b4') in 0.0403837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_orange.png
+  artifactKey: Guid(0ae421ee2b1a7f24eadb766693cfc7d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_orange.png using Guid(0ae421ee2b1a7f24eadb766693cfc7d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aab14416e63a61aa8d8da7faabe8499') in 0.0370948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_blue.png
+  artifactKey: Guid(3605738d6378d7241b18c4e42757f0dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_blue.png using Guid(3605738d6378d7241b18c4e42757f0dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6860a532d0897101b02b698de74bc1a') in 0.0438747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_pink.png
+  artifactKey: Guid(5a8045803b0670d49a8491ab1428db36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_pink.png using Guid(5a8045803b0670d49a8491ab1428db36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de2a28f49af38d331605ae7ad962674c') in 0.0388762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_yellow.png
+  artifactKey: Guid(03f6a183c3984dc4385bab704b22f93b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_yellow.png using Guid(03f6a183c3984dc4385bab704b22f93b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9025dd2e8b49e1ef30805154aa73341c') in 0.0428754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_red.png
+  artifactKey: Guid(ed43c99e8c88b2949ad7b4e935887f90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_red.png using Guid(ed43c99e8c88b2949ad7b4e935887f90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79665bcd30892defedf05414962ab54d') in 0.038832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_green.png
+  artifactKey: Guid(66b2b07df9b18a44eb34ae0268049e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_green.png using Guid(66b2b07df9b18a44eb34ae0268049e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41fb4b591917688aa5a80fb4143a64c4') in 0.0287586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_green.png
+  artifactKey: Guid(e32526d64feec174d91fc899ffe53ed1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_green.png using Guid(e32526d64feec174d91fc899ffe53ed1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e596b11512745aab23b5b95a05dc834d') in 0.0395653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_pink.png
+  artifactKey: Guid(b3a6fc3393688fd4ba10f0aae88939cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_pink.png using Guid(b3a6fc3393688fd4ba10f0aae88939cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7378a73d62abc19fd91d0406db697e8') in 0.0324101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_orange.png
+  artifactKey: Guid(9d952d3852a89d74ebd0a9eab1e70478) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_orange.png using Guid(9d952d3852a89d74ebd0a9eab1e70478) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e0f5076cf324208067d7f2b48b89547') in 0.0432176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_green.png
+  artifactKey: Guid(eab76aacf8fe41246b4e26a70bb68f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_green.png using Guid(eab76aacf8fe41246b4e26a70bb68f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8fa300fdaaa3d3dd90963c9cde0f4d') in 0.027551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_orange.png
+  artifactKey: Guid(6cfcfae5c634ab446af3e6d2a8192395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_orange.png using Guid(6cfcfae5c634ab446af3e6d2a8192395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bc6a20d88a0ec0d8a7917e93e9870db') in 0.0348071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_green.png
+  artifactKey: Guid(09e0333e12960ee4fadc5f4bb58fbab4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_green.png using Guid(09e0333e12960ee4fadc5f4bb58fbab4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a303f04137297e6b3357e0e8cbd7f16') in 0.033827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_red.png
+  artifactKey: Guid(8a1b172a3330f614989fc12b26874beb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_red.png using Guid(8a1b172a3330f614989fc12b26874beb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27d710109af0cceb8cf1beb4d25a84f1') in 0.0431673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_purple.png
+  artifactKey: Guid(72b19b0f29b9cc44c94996ea327b0bef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_purple.png using Guid(72b19b0f29b9cc44c94996ea327b0bef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dddebe578bcdcc4ac120a6c1f38330b4') in 0.0378471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_red.png
+  artifactKey: Guid(c07efa2d0e5c1e343a6f75f1aeefaa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_red.png using Guid(c07efa2d0e5c1e343a6f75f1aeefaa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e1b1e645b6f31d68897d0f4dc227302') in 0.0342683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_orange.png
+  artifactKey: Guid(46518aafed4020f499d117ff06d564be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_orange.png using Guid(46518aafed4020f499d117ff06d564be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e8b283d8908bbb3264ca2a07e58cb50') in 0.0300379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_purple.png
+  artifactKey: Guid(ce01b0dbd34971746bafc8b02121e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_purple.png using Guid(ce01b0dbd34971746bafc8b02121e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5107703ab337ee7f5fba346f6c4be3ed') in 0.032812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_purple.png
+  artifactKey: Guid(aa1fc74809a219343861bd10c2b3090e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_purple.png using Guid(aa1fc74809a219343861bd10c2b3090e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e8a12f9611feffb63bb385891bed2e8') in 0.0410468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_pink.png
+  artifactKey: Guid(2d33dc02bdd96784f83ea2298cdb4bb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_pink.png using Guid(2d33dc02bdd96784f83ea2298cdb4bb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3caea551d3bb4dd254fab55c6085696') in 0.0379639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_green.png
+  artifactKey: Guid(1fb3d804c0ec43b4eb722fedf1a350c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_green.png using Guid(1fb3d804c0ec43b4eb722fedf1a350c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '766aacd80d64cf5f0284c971cffc7dd5') in 0.0372216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_yellow.png
+  artifactKey: Guid(3de6ecb583b0a2540a6eeb93832310f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_yellow.png using Guid(3de6ecb583b0a2540a6eeb93832310f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f06afceefb4946a978b0419a70fc718a') in 0.0331275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_blue.png
+  artifactKey: Guid(641b2abf0eb4cd24690cdfdf3ed8514b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_blue.png using Guid(641b2abf0eb4cd24690cdfdf3ed8514b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14b793fb5354ee2353ee647b879606b1') in 0.041419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_purple.png
+  artifactKey: Guid(5f6fe78f122555b469998492cfe13783) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_purple.png using Guid(5f6fe78f122555b469998492cfe13783) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2670909a53e477cce27f488a574eae73') in 0.0399064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_orange.png
+  artifactKey: Guid(24e313f39c6fd814882d9f7598fbec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_orange.png using Guid(24e313f39c6fd814882d9f7598fbec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd555cd0f0d0aa19ba5ac1459827ec858') in 0.0312858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_pink.png
+  artifactKey: Guid(9da941a05b852594f90dee908574ae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_pink.png using Guid(9da941a05b852594f90dee908574ae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37477ca27242b9db411a1c5bacc089f1') in 0.0302784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_blue.png
+  artifactKey: Guid(5f0e81667fadcd24481af0c2551e77b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_blue.png using Guid(5f0e81667fadcd24481af0c2551e77b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81d1c33ba813aeffe7d00cd40f923473') in 0.0369364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_pink.png
+  artifactKey: Guid(a3c68d007f11cd348b0e9568de6f7f2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_pink.png using Guid(a3c68d007f11cd348b0e9568de6f7f2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec49d8548f9463d26e95357eed2a077c') in 0.0390239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_yellow.png
+  artifactKey: Guid(bd32323f6e84d4d43a45555a5bacb13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_yellow.png using Guid(bd32323f6e84d4d43a45555a5bacb13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50a476e9997bfc755629de39f5da7671') in 0.0306212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_orange.png
+  artifactKey: Guid(62a40e7573274a8458edf37ff0703489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_orange.png using Guid(62a40e7573274a8458edf37ff0703489) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55707a28bf64e9b320988ee2250d3bb7') in 0.0321072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_pink.png
+  artifactKey: Guid(2f3f8c410991cce449529d20cba444ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_pink.png using Guid(2f3f8c410991cce449529d20cba444ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '740a66ff674a1049c5efdfd4e0b7b695') in 0.0347661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_blue.png
+  artifactKey: Guid(178b01b21d56b7e4a820a0d8c22342ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_blue.png using Guid(178b01b21d56b7e4a820a0d8c22342ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e604d736d78ff1f9dbe442d1adaf13f') in 0.0408201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_idle.png
+  artifactKey: Guid(fcd1922f5650c95438b7594f6a1aa602) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_idle.png using Guid(fcd1922f5650c95438b7594f6a1aa602) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1025e93ec65b1b5d6d1c8e807d15a2c6') in 0.0442794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_red.png
+  artifactKey: Guid(c07efa2d0e5c1e343a6f75f1aeefaa65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_red.png using Guid(c07efa2d0e5c1e343a6f75f1aeefaa65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b54c5c306bb4a929c903d31ad535a9c') in 0.0630309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_orange.png
+  artifactKey: Guid(a2f456138912c394480f28e033ae6de4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_orange.png using Guid(a2f456138912c394480f28e033ae6de4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a54088eab680fcab5e354f25ecbb6aef') in 0.0331991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_red.png
+  artifactKey: Guid(32d2f9e6ba53c4d4c9b5281ea2b6e55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_red.png using Guid(32d2f9e6ba53c4d4c9b5281ea2b6e55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68264aea3d9bdc72e0b6b943b5c65df2') in 0.0313875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_disabled.png
+  artifactKey: Guid(07ef7c3a14e55874bb6f59462c046ee4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_disabled.png using Guid(07ef7c3a14e55874bb6f59462c046ee4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67f8b53e14c4588aeb7369231fd9c9d7') in 0.0336266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_pink.png
+  artifactKey: Guid(5a8045803b0670d49a8491ab1428db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_pink.png using Guid(5a8045803b0670d49a8491ab1428db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15336ee96a7f9959bad1068b4b1326f6') in 0.0291307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.289341 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c2f21eb2d4c3df321efa8f3a4b604f5') in 0.0293967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.184653 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_blue.png
+  artifactKey: Guid(1da7fbb3947311f49b099b0b17714f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_blue.png using Guid(1da7fbb3947311f49b099b0b17714f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a80918f4d048942121ed28f0be8a2ef8') in 0.0445247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_red.png
+  artifactKey: Guid(0f53748c17de38d4195d1b21be1d7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_red.png using Guid(0f53748c17de38d4195d1b21be1d7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3362e7e0bc1c00e020ca5c60c37e9bf') in 0.0376761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_yellow.png
+  artifactKey: Guid(ddc086cbecd988943acc666c578c8ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_yellow.png using Guid(ddc086cbecd988943acc666c578c8ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0ac05068ef68abfff80fd95e8a153a3') in 0.0287532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_blue.png
+  artifactKey: Guid(b49a716d073cc5142a7c201ab1ab0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_blue.png using Guid(b49a716d073cc5142a7c201ab1ab0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c8b62f6671d2cc1edb81466d868db27') in 0.0338906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_orange.png
+  artifactKey: Guid(8ce0a843a2a39ed478a71cc52a2056c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_orange.png using Guid(8ce0a843a2a39ed478a71cc52a2056c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aab3c0628561da3faef260d5b7508e81') in 0.0315866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_orange.png
+  artifactKey: Guid(0ae421ee2b1a7f24eadb766693cfc7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_orange.png using Guid(0ae421ee2b1a7f24eadb766693cfc7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15a5150d6b8bf3632984da5efdafd796') in 0.0283753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_green.png
+  artifactKey: Guid(09e0333e12960ee4fadc5f4bb58fbab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_green.png using Guid(09e0333e12960ee4fadc5f4bb58fbab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fecaaa5f9d0ee03319241e3cc3b6f8a4') in 0.0333516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_purple.png
+  artifactKey: Guid(72b19b0f29b9cc44c94996ea327b0bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_purple.png using Guid(72b19b0f29b9cc44c94996ea327b0bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0e835c8d881806c18eb86036deba665') in 0.0280267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.458352 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_orange.png
+  artifactKey: Guid(6cfcfae5c634ab446af3e6d2a8192395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_orange.png using Guid(6cfcfae5c634ab446af3e6d2a8192395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e8baba53d0e04df66229306213bcdb3') in 0.0299226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_blue.png
+  artifactKey: Guid(641b2abf0eb4cd24690cdfdf3ed8514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_blue.png using Guid(641b2abf0eb4cd24690cdfdf3ed8514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '111110cca9b2f434b7504eb5c6c207b3') in 0.0321997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_purple.png
+  artifactKey: Guid(5f6fe78f122555b469998492cfe13783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_purple.png using Guid(5f6fe78f122555b469998492cfe13783) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cba46ccddd7449e2f87317a31d00e787') in 0.0327321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_green.png
+  artifactKey: Guid(1f0163688ce51c14fbfa8320ddb3c367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_green.png using Guid(1f0163688ce51c14fbfa8320ddb3c367) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '409eb138f30ce1aef243d60d18ecae1d') in 0.0333381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_green.png
+  artifactKey: Guid(66b2b07df9b18a44eb34ae0268049e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_green.png using Guid(66b2b07df9b18a44eb34ae0268049e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e37be40bd12d50155567ff8c8495099') in 0.0316922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_red.png
+  artifactKey: Guid(459b52a2653fb3842b3b88fbee1556cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_red.png using Guid(459b52a2653fb3842b3b88fbee1556cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6c88db472f25fb91d01523291133f78') in 0.0323201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_yellow.png
+  artifactKey: Guid(4914b4a00b71f4d48a77d74138f05b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_yellow.png using Guid(4914b4a00b71f4d48a77d74138f05b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db5d5c4ec69dfee9bbd7f6d59bcefda6') in 0.0303432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_yellow.png
+  artifactKey: Guid(3de6ecb583b0a2540a6eeb93832310f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_yellow.png using Guid(3de6ecb583b0a2540a6eeb93832310f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb9bb58cde3b7fddf0f21f1b37d76ad5') in 0.0310334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_green.png
+  artifactKey: Guid(1fb3d804c0ec43b4eb722fedf1a350c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_green.png using Guid(1fb3d804c0ec43b4eb722fedf1a350c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3afdcc7f9821c58731521ce6c0778bb7') in 0.0345296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_purple.png
+  artifactKey: Guid(ab15c66970b8dec448e82efdcf4769b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_purple.png using Guid(ab15c66970b8dec448e82efdcf4769b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '838e2a6af3c70c9c5cf555bdcd38afa4') in 0.0372861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046093 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_pink.png
+  artifactKey: Guid(21b1b6db3bb8cc345b2f7b1b323ce2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_pink.png using Guid(21b1b6db3bb8cc345b2f7b1b323ce2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f26d78aa0a31ffcedeb0231469feb526') in 0.0344211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_purple.png
+  artifactKey: Guid(a2271b3feb2213c47bbdc2c1186f24a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_purple.png using Guid(a2271b3feb2213c47bbdc2c1186f24a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd35cb04a68c3690975c1abd0f1e9627f') in 0.036155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_blue.png
+  artifactKey: Guid(dfb9cb450a23cf64aa784d7873ec39b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_blue.png using Guid(dfb9cb450a23cf64aa784d7873ec39b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1816f70238b9fa95d909b5752e746c2e') in 0.0310251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_red.png
+  artifactKey: Guid(c07efa2d0e5c1e343a6f75f1aeefaa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_red.png using Guid(c07efa2d0e5c1e343a6f75f1aeefaa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8af51dd7476cb269cf71425c2c46c742') in 0.0283779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_pink.png
+  artifactKey: Guid(a3c68d007f11cd348b0e9568de6f7f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_pink.png using Guid(a3c68d007f11cd348b0e9568de6f7f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7229bd7d10756ed5621e5277bc254cf8') in 0.0313657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.634461 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efa6397b74a570e74d00694a5cdfd252') in 0.0326651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.918941 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_purple.png
+  artifactKey: Guid(c900f4505f24c674bbb61e0545e16d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_purple.png using Guid(c900f4505f24c674bbb61e0545e16d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '404769de2ae022a0e3777e4649ce316f') in 0.0177164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.306229 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_blue.png
+  artifactKey: Guid(1645075a861e06d4c824954aa315d19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_blue.png using Guid(1645075a861e06d4c824954aa315d19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'def5ceba0d7f929169899b13b5c7ee48') in 0.0391158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_yellow.png
+  artifactKey: Guid(4b7523daecd509a409e76b0e0670ed51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_yellow.png using Guid(4b7523daecd509a409e76b0e0670ed51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09fd97611d98c98151538ed56a2c08e5') in 0.0373425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_green.png
+  artifactKey: Guid(bfcba053f0eae9d41a9220ea0d3fecf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_green.png using Guid(bfcba053f0eae9d41a9220ea0d3fecf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fcc27ee2997c46755f3cd2b39151c8f') in 0.0360745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_blue.png
+  artifactKey: Guid(3605738d6378d7241b18c4e42757f0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_blue.png using Guid(3605738d6378d7241b18c4e42757f0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aa8ce77069f6f105a977ded8cdaa1c5') in 0.0360035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_pink.png
+  artifactKey: Guid(2f3f8c410991cce449529d20cba444ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_pink.png using Guid(2f3f8c410991cce449529d20cba444ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '278e15dd80facd8ba89d3852d42d6b60') in 0.0335272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108092 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_purple.png
+  artifactKey: Guid(aa1fc74809a219343861bd10c2b3090e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_purple.png using Guid(aa1fc74809a219343861bd10c2b3090e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42754a10c371df5f195b49c73aa029a5') in 0.0356518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_green.png
+  artifactKey: Guid(0c0f7320d0f41504ab8b7d4f8fcc260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_green.png using Guid(0c0f7320d0f41504ab8b7d4f8fcc260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba28511088c3172ed8f6f95e65b0e937') in 0.0352987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_disabled.png
+  artifactKey: Guid(7aab886e80599234992ab1fc8be32812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_disabled.png using Guid(7aab886e80599234992ab1fc8be32812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '121fbab0a05f566200d75b17aa74e488') in 0.0323826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_disabled.png
+  artifactKey: Guid(07ef7c3a14e55874bb6f59462c046ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_disabled.png using Guid(07ef7c3a14e55874bb6f59462c046ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdc83660901fb4fdfe3feca37042910a') in 0.029486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_idle.png
+  artifactKey: Guid(fcd1922f5650c95438b7594f6a1aa602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_idle.png using Guid(fcd1922f5650c95438b7594f6a1aa602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58ec3f00941d823209034d6421cad51e') in 0.0320172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_blue.png
+  artifactKey: Guid(178b01b21d56b7e4a820a0d8c22342ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_blue.png using Guid(178b01b21d56b7e4a820a0d8c22342ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78e7bbcdf66ca6d1b1224145601cbabb') in 0.0337063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_purple.png
+  artifactKey: Guid(ce01b0dbd34971746bafc8b02121e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_purple.png using Guid(ce01b0dbd34971746bafc8b02121e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9acd80611c48cf749cf775f6be16f8bf') in 0.0337552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_idle.png
+  artifactKey: Guid(d67d0424b610f764882fcd5df558dc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_idle.png using Guid(d67d0424b610f764882fcd5df558dc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00891c643ca58125181ee076d6752711') in 0.0405219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_hover.png
+  artifactKey: Guid(1e1e83e568ea4cb4ab78b8856273f209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_hover.png using Guid(1e1e83e568ea4cb4ab78b8856273f209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66b86678671300b3d02f9e106e3b6fc5') in 0.0295258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_hover.png
+  artifactKey: Guid(1b79534ef4258f142899d4ae3398fbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_hover.png using Guid(1b79534ef4258f142899d4ae3398fbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b11eab9df60621c200d61f913c6f184e') in 0.0312099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.106094 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_blue.png
+  artifactKey: Guid(1da7fbb3947311f49b099b0b17714f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_blue.png using Guid(1da7fbb3947311f49b099b0b17714f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a07de5a2eb2600d0403dbc10ddba3f38') in 0.0157369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010621 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_red.png
+  artifactKey: Guid(0f53748c17de38d4195d1b21be1d7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_red.png using Guid(0f53748c17de38d4195d1b21be1d7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c049534b6497101e6239aea61114684') in 0.0145966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_red.png
+  artifactKey: Guid(ec2438d6a0f2c344a9a778743762aaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_red.png using Guid(ec2438d6a0f2c344a9a778743762aaa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e0e5d0c02a17504f9f739ca2b6dddc1') in 0.0145716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_blue.png
+  artifactKey: Guid(b49a716d073cc5142a7c201ab1ab0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_blue.png using Guid(b49a716d073cc5142a7c201ab1ab0254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cff9c98d72f25e79c3836009bda7895c') in 0.0147553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_yellow.png
+  artifactKey: Guid(c7caa58f79ba6114e8ed95aaaf01612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_yellow.png using Guid(c7caa58f79ba6114e8ed95aaaf01612d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aae53a5910a67001c78df173c50a161') in 0.0115474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_pink.png
+  artifactKey: Guid(2d33dc02bdd96784f83ea2298cdb4bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_pink.png using Guid(2d33dc02bdd96784f83ea2298cdb4bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '935103caff9fa55a5705200ca868f96b') in 0.0120973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

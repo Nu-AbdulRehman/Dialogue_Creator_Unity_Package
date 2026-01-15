@@ -1,6 +1,6 @@
-﻿using Codice.Client.Common;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
@@ -68,6 +68,7 @@ public class ConversationCreator : EditorWindow
         selectedConvoIndex = EditorGUILayout.Popup("Conversation", selectedConvoIndex, convoNames);
         Conversation convo = convos[selectedConvoIndex];
         nodes = convo.nodesList;
+        RebuildChildrenFromIds();
         GUILayout.Space(10);
 
         GUILayout.BeginHorizontal();
@@ -76,6 +77,7 @@ public class ConversationCreator : EditorWindow
             nodes.Add(new ConversationNode()
             {
                 currentIndex = 0,
+                id = GetNextNodeId(),
                 rect = new Rect(100 + scroll.x, 100 + scroll.y, 200, 160),
                 dialogue = convo.dialogues.Count > 0 ? convo.dialogues[0] : null
             });
@@ -86,6 +88,16 @@ public class ConversationCreator : EditorWindow
             ConditionalPromptWindow.Show(convo, (c) =>
             {
                 AddConditionalNode(c, scroll);
+            });
+        }
+
+        if (GUILayout.Button("Add Run Function Node"))
+        {
+            nodes.Add(new ConversationNode
+            {
+                id = GetNextNodeId(),
+                nodeType = ConversationNodeType.RunFunction,
+                rect = new Rect(100 + scroll.x, 100 + scroll.y, 220, 120)
             });
         }
 
@@ -109,6 +121,8 @@ public class ConversationCreator : EditorWindow
 
         OrderNodes(nodes);
 
+        SyncChildIds();
+
         if (GUI.changed)
         {
             Undo.RecordObject(convo, "Modify Conversation");
@@ -124,8 +138,9 @@ public class ConversationCreator : EditorWindow
         nodes.Add(new ConversationNode()
         {
             numOfConditions = currentOptions,
-            isCondition = true,
+            nodeType = ConversationNodeType.Condition,
             currentIndex = 0,
+            id = GetNextNodeId(),
             rect = new Rect(100 + scroll.x, 100 + scroll.y, 200 * currentOptions, 120),
             dialogue = convo.dialogues.Count > 0 ? convo.dialogues[0] : null
         });
@@ -137,15 +152,20 @@ public class ConversationCreator : EditorWindow
         {
             ConversationNode node = nodes[i];
 
-            if (!node.isCondition)
+            switch (node.nodeType)
             {
-                DrawNode(node, convo, i);
-            }
+                case ConversationNodeType.Dialogue:
+                    DrawNode(node, convo, i);
+                    break;
 
-            if (node.isCondition)
-            {
-                DrawConditionalNode(node, i);
-                DragConditionalOptions(node);
+                case ConversationNodeType.Condition:
+                    DrawConditionalNode(node, i);
+                    DragConditionalOptions(node);
+                    break;
+
+                case ConversationNodeType.RunFunction:
+                    DrawRunFunctionNode(node, i);
+                    break;
             }
 
             if (Event.current.type == EventType.MouseDrag && node.rect.Contains(Event.current.mousePosition))
@@ -253,7 +273,7 @@ public class ConversationCreator : EditorWindow
 
     public void DragConditionalOptions(ConversationNode node)
     {
-        if (!node.isCondition)
+        if (!(node.nodeType == ConversationNodeType.Condition))
             return;
 
         if (!node.isDraggable)
@@ -276,7 +296,7 @@ public class ConversationCreator : EditorWindow
     {
         if(!isCondition)
         {
-            if (node.isCondition)
+            if (node.nodeType == ConversationNodeType.Condition)
                 return;
         }
 
@@ -400,6 +420,200 @@ public class ConversationCreator : EditorWindow
         GUI.EndGroup();
     }
 
+
+    public bool IsSupportedParameter(System.Type t)
+    {
+        return t == typeof(int) || t == typeof(float) || t == typeof(string) || t == typeof(bool) || typeof(UnityEngine.Object).IsAssignableFrom(t);
+    }
+
+    void SyncParameters(ConversationNode node, MethodInfo method)
+    {
+        var methodParams = method.GetParameters();
+
+        bool rebuild = node.parameters.Count != methodParams.Length;
+
+        if (!rebuild)
+        {
+            for (int i = 0; i < methodParams.Length; i++)
+            {
+                if (node.parameters[i].typeName != methodParams[i].ParameterType.AssemblyQualifiedName)
+                {
+                    rebuild = true;
+                    break;
+                }
+            }
+        }
+
+        if (!rebuild)
+            return;
+
+        node.parameters.Clear();
+
+        foreach (var param in methodParams)
+        {
+            FunctionParameter fp = new FunctionParameter
+            {
+                name = param.Name,
+                typeName = param.ParameterType.AssemblyQualifiedName
+            };
+
+            node.parameters.Add(fp);
+        }
+    }
+
+    void DrawFunctionParameters(ConversationNode node, ref float y)
+    {
+        if (node.parameters == null || node.parameters.Count == 0)
+            return;
+
+        EditorGUI.LabelField(
+            new Rect(10, y, node.rect.width - 20, 18),
+            "Parameters",
+            EditorStyles.boldLabel
+        );
+
+        y += 20f;
+
+        foreach (var param in node.parameters)
+        {
+            var type = System.Type.GetType(param.typeName);
+            if (type == null)
+                continue;
+
+            Rect fieldRect = new Rect(10, y, node.rect.width - 20, 18);
+
+            if (type == typeof(int))
+            {
+                param.intValue = EditorGUI.IntField(fieldRect, param.name, param.intValue);
+            }
+            else if (type == typeof(float))
+            {
+                param.floatValue = EditorGUI.FloatField(fieldRect, param.name, param.floatValue);
+            }
+            else if (type == typeof(string))
+            {
+                param.stringValue = EditorGUI.TextField(fieldRect, param.name, param.stringValue);
+            }
+            else if (type == typeof(bool))
+            {
+                param.boolValue = EditorGUI.Toggle(fieldRect, param.name, param.boolValue);
+            }
+            else if (typeof(UnityEngine.Object).IsAssignableFrom(type))
+            {
+                param.objectValue = EditorGUI.ObjectField(
+                    fieldRect,
+                    param.name,
+                    param.objectValue,
+                    type,
+                    true
+                );
+            }
+
+            y += 22f;
+        }
+    }
+
+    void RestoreEditorTarget(ConversationNode node)
+    {
+    #if UNITY_EDITOR
+        if (node.editorTargetScript != null)
+            return;
+
+        if (string.IsNullOrEmpty(node.targetScriptTypeName))
+            return;
+
+        MonoBehaviour[] allScripts = GameObject.FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None);
+
+        foreach (var script in allScripts)
+        {
+            if (script.GetType().Name == node.targetScriptTypeName)
+            {
+                node.editorTargetScript = script;
+                break;
+            }
+        }
+     #endif
+    }
+
+    void DrawRunFunctionNode(ConversationNode node, int i)
+    {
+        RestoreEditorTarget(node);
+
+        GUI.Box(node.rect, "", EditorStyles.helpBox);
+        GUI.BeginGroup(node.rect);
+
+        EditorGUI.LabelField(
+            new Rect(10, 5, node.rect.width - 20, 20),
+            "Run Function Node",
+            EditorStyles.boldLabel
+        );
+
+        node.editorTargetScript = (MonoBehaviour)EditorGUI.ObjectField(
+            new Rect(10, 30, node.rect.width - 20, 18),
+            "Target Script",
+            node.editorTargetScript,
+            typeof(MonoBehaviour),
+            true
+        );
+
+        if (node.editorTargetScript != null)
+        {
+            node.targetScriptTypeName = node.editorTargetScript.GetType().Name;
+        }
+
+        float y = 55f;
+
+        if (node.editorTargetScript != null)
+        {
+            MethodInfo[] methods = node.editorTargetScript.GetType()
+                .GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                .Where(m =>
+                    m.ReturnType == typeof(void) &&
+                    m.GetParameters().All(p => IsSupportedParameter(p.ParameterType))
+                )
+                .ToArray();
+
+            if (methods.Length > 0)
+            {
+                string[] methodNames = methods.Select(m => m.Name).ToArray();
+
+                int index = Mathf.Max(0, System.Array.IndexOf(methodNames, node.methodName));
+
+                int newIndex = EditorGUI.Popup(
+                    new Rect(10, y, node.rect.width - 20, 18),
+                    index,
+                    methodNames
+                );
+
+                if (newIndex != index)
+                {
+                    node.methodName = methodNames[newIndex];
+                    SyncParameters(node, methods[newIndex]);
+                }
+
+                y += 22f;
+
+                DrawFunctionParameters(node, ref y);
+            }
+            else
+            {
+                EditorGUI.LabelField(
+                    new Rect(10, y, node.rect.width - 20, 18),
+                    "No Valid Void Methods Found"
+                );
+            }
+        }
+
+        if (GUI.Button(new Rect(10, node.rect.height - 25, node.rect.width - 20, 20), "Remove Node"))
+            nodes.RemoveAt(i);
+
+        node.rect.height = Mathf.Max(120, y + 30);
+
+        GUI.EndGroup();
+
+        CheckandConnectNodes(node);
+    }
+
     private void OrderNodes(List<ConversationNode> convo)
     {
         for (int i = 0; i < convo.Count; i++)
@@ -423,7 +637,7 @@ public class ConversationCreator : EditorWindow
 
     public void CheckandConnectNodes(ConversationNode node)
     {
-        if (node.isCondition)
+        if (node.nodeType == ConversationNodeType.Condition)
             return;
 
         bool connectionIsMade = false;
@@ -469,7 +683,7 @@ public class ConversationCreator : EditorWindow
 
     public void CheckandConnectConditionalNode(ConversationNode node)
     {
-        if (!node.isCondition)
+        if (!(node.nodeType == ConversationNodeType.Condition))
             return;
 
         if (nodes.Count < 2)
@@ -611,5 +825,37 @@ public class ConversationCreator : EditorWindow
         foreach (var c in node.children)
             if (IsDescendantOf(c, potentialParent)) return true;
         return false;
+    }
+
+    int GetNextNodeId()
+    {
+        return nodes.Count == 0 ? 0 : nodes.Max(n => n.id) + 1;
+    }
+
+    void SyncChildIds()
+    {
+        foreach (var node in nodes)
+        {
+            node.childIds.Clear();
+            foreach (var child in node.children)
+            {
+                node.childIds.Add(child.id);
+            }
+        }
+    }
+
+    void RebuildChildrenFromIds()
+    {
+        var lookup = nodes.ToDictionary(n => n.id, n => n);
+
+        foreach (var node in nodes)
+        {
+            node.children.Clear();
+            foreach (int id in node.childIds)
+            {
+                if (lookup.TryGetValue(id, out var child))
+                    node.children.Add(child);
+            }
+        }
     }
 }

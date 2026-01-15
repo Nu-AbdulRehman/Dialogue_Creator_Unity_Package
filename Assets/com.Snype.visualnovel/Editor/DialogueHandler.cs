@@ -96,7 +96,7 @@ public class DialogueHandler : EditorWindow
 
         if (convos == null || convos.Count == 0)
         {
-            EditorGUILayout.HelpBox("No conversations available.", MessageType.Info);
+            EditorGUILayout.HelpBox("No Conversations Available.", MessageType.Info);
             return null;
         }
 

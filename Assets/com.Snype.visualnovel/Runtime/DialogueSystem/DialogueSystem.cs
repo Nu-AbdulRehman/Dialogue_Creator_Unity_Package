@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using TMPro;
+using System.Reflection;
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -25,7 +26,9 @@ public class DialogueSystem : MonoBehaviour
 
     ConversationNode nextChosen = null;
 
-    private void Start()
+    Dictionary<int, ConversationNode> nodeLookup;
+
+    private void Awake()
     {
         conversationsDatabase = AssetDatabase.LoadAssetAtPath<ConversationsDatabase>("Assets/ConversationsDatabase.asset");
         if(conversationsDatabase == null)
@@ -33,11 +36,14 @@ public class DialogueSystem : MonoBehaviour
             Debug.LogError("No Conversations Database Found! Please Set It Up Using The Conversations Handler Window Under Window/Visual Novel Creator. If A Database Exists Please Ensure It Is Situated Under The Assets Folder");
             return;
         }
+
         PlayConversation();
     }
 
     void PlayConversation()
     {
+        InitializeRuntimeGraph();
+
         if(currentConversation == null)
         {
             Debug.LogError("No Conversation Chosen Please Choose A Valid One From The Dropdown");
@@ -57,9 +63,9 @@ public class DialogueSystem : MonoBehaviour
 
         currentNode = currentConversation.nodesList[0];
 
-        while (currentNode != null && currentNode.children.Count >= 0)
+        while (currentNode != null)
         {
-            if(!currentNode.isCondition)
+            if(currentNode.nodeType == ConversationNodeType.Dialogue)
             {
                 SetCharacterVisuals(currentNode);
 
@@ -71,16 +77,18 @@ public class DialogueSystem : MonoBehaviour
 
                 currentVerseDone = false;
 
-                if (currentNode.children.Count > 0)
-                {
-                    currentNode = currentNode.children[0];
-                }
-                else
-                {
-                    currentNode = null;
-                }
+                //if (currentNode.children.Count > 0)
+                //{
+                //    currentNode = currentNode.childIds.Count > 0 ? nodeLookup[currentNode.childIds[0]] : null;
+                //}
+                //else
+                //{
+                //    currentNode = null;
+                //}
+
+                currentNode = currentNode.childIds.Count > 0 ? nodeLookup[currentNode.childIds[0]] : null;
             }
-            else
+            else if(currentNode.nodeType == ConversationNodeType.Condition)
             {
                 DisplayChoices(currentNode);
 
@@ -91,6 +99,21 @@ public class DialogueSystem : MonoBehaviour
                 currentNode = nextChosen;
 
                 nextChosen = null;
+            }
+            else if(currentNode.nodeType == ConversationNodeType.RunFunction)
+            {
+                RunNodeFunction(currentNode);
+
+                //if (currentNode.children.Count > 0)
+                //{
+                //    currentNode = currentNode.childIds.Count > 0 ? nodeLookup[currentNode.childIds[0]] : null;
+                //}
+                //else
+                //{
+                //    currentNode = null;
+                //}
+
+                currentNode = currentNode.childIds.Count > 0 ? nodeLookup[currentNode.childIds[0]] : null;
             }
         }
 
@@ -129,7 +152,6 @@ public class DialogueSystem : MonoBehaviour
         }
         onComplete?.Invoke();
     }
-
 
     IEnumerator DisplayVerse(TMP_Text output, string verseInput, float delay, System.Action onComplete)
     {
@@ -205,13 +227,80 @@ public class DialogueSystem : MonoBehaviour
 
     void IthChoiceChosen(ConversationNode currentNode, int i)
     {
-        if(currentNode.children.Count < i + 1)
+        if(currentNode.childIds.Count < i + 1)
         {
             Debug.LogError("Dialogue Node After Condition Not Assigned, Please Assign It In The Conversation Creator Window");
         }
         else
         {
-            nextChosen = currentNode.children[i];
+            if (i < currentNode.childIds.Count)
+            {
+                nextChosen = nodeLookup[currentNode.childIds[i]];
+            }
+            else
+            {
+                Debug.LogError("Dialogue Node After Condition Not Assigned");
+            }
+        }
+    }
+
+    void RunNodeFunction(ConversationNode node)
+    {
+        if (string.IsNullOrEmpty(node.targetScriptTypeName) || string.IsNullOrEmpty(node.methodName))
+            return;
+
+        // Get the script from the runtime registry
+        RuntimeFunctionRegistry registry = FindFirstObjectByType<RuntimeFunctionRegistry>();
+
+        if (registry == null)
+        {
+            Debug.LogError("RuntimeFunctionRegistry Not Found In Scene!");
+            return;
+        }
+
+        MonoBehaviour targetScript = registry.GetScript(node.targetScriptTypeName);
+        if (targetScript == null)
+        {
+            Debug.LogError($"No Target Script of Type {node.targetScriptTypeName} Found in Scene!");
+            return;
+        }
+
+        var method = targetScript.GetType().GetMethod(
+            node.methodName,
+            System.Reflection.BindingFlags.Instance |
+            System.Reflection.BindingFlags.Public |
+            System.Reflection.BindingFlags.NonPublic
+        );
+
+        if (method == null)
+        {
+            Debug.LogError($"Method {node.methodName} Not Found On {node.targetScriptTypeName}");
+            return;
+        }
+
+        // Prepare parameters
+        object[] args = new object[node.parameters.Count];
+        for (int i = 0; i < node.parameters.Count; i++)
+        {
+            var p = node.parameters[i];
+            var type = System.Type.GetType(p.typeName);
+
+            if (type == typeof(int)) args[i] = p.intValue;
+            else if (type == typeof(float)) args[i] = p.floatValue;
+            else if (type == typeof(string)) args[i] = p.stringValue;
+            else if (type == typeof(bool)) args[i] = p.boolValue;
+            else if (typeof(UnityEngine.Object).IsAssignableFrom(type)) args[i] = p.objectValue;
+        }
+
+        method.Invoke(targetScript, args);
+    }
+
+    private void InitializeRuntimeGraph()
+    {
+        nodeLookup = new Dictionary<int, ConversationNode>();
+        foreach (var node in currentConversation.nodesList)
+        {
+            nodeLookup[node.id] = node;
         }
     }
 }
