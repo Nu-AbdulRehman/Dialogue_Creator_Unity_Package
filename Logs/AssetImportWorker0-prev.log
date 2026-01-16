@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mabdu" at "2026-01-15T09:11:30.1190003Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mabdu" at "2026-01-16T10:41:00.5663146Z"
 OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 11995 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-15T09:11:30Z
+Date: 2026-01-16T10:41:00Z
 
 COMMAND LINE ARGUMENTS:
 C:\Users\mabdu\Software\Unity\UnityVersions\6000.2.6f2\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/mabdu/Software/GitHub-Repos/Dialogue_Creator_Unity_Package
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54310
+53904
 -licensingIpc
 LicenseClient-mabdu
 -job-worker-count
@@ -65,37 +65,37 @@ C:/Users/mabdu/Software/GitHub-Repos/Dialogue_Creator_Unity_Package
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31976]  Target information:
+Player connection [2272]  Target information:
 
-Player connection [31976]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1874382454 [EditorId] 1874382454 [Version] 1048832 [Id] WindowsEditor(7,AbdulRehman-LOQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2272]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4001896242 [EditorId] 4001896242 [Version] 1048832 [Id] WindowsEditor(7,AbdulRehman-LOQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31976]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1874382454 [EditorId] 1874382454 [Version] 1048832 [Id] WindowsEditor(7,AbdulRehman-LOQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2272]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 4001896242 [EditorId] 4001896242 [Version] 1048832 [Id] WindowsEditor(7,AbdulRehman-LOQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31976] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31976] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2272] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2272] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 57376, path: "C:/Users/mabdu/Software/Unity/UnityHub/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              3fbb29b2a29e4b7e827572daa56cb953
+  Session Id:              ffead7e06d624914880d1b0fecdc3091
   Correlation Id:          c2d5052e3d7c6538e1bcadab34a82181
-  External correlation Id: 1609849849274110452
+  External correlation Id: 4898375855704916064
   Machine Id:              7F/eLCRCKqwmUfxuyLaZ13Qr608=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mabdu" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mabdu-notifications" at "2026-01-15T09:11:30.1927052Z"
-[Licensing::Module] Licensing Background thread has ended after 0.07s
-Library Redirect Path: Library/
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mabdu" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mabdu-notifications" at "2026-01-16T10:41:00.6591333Z"
+[Licensing::Module] Licensing Background thread has ended after 0.09s
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
 [Subsystems] Discovering subsystems at path C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
@@ -111,7 +111,7 @@ Initialize mono
 Mono path[0] = 'C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -121,7 +121,7 @@ Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/60
   Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
   Product: Unity Personal
   Type: ULF
-  Expiration: 2026-02-23T10:06:56Z
+  Expiration: 2026-02-23T11:38:24Z
 [Licensing::Module] License group:
   Id: 18966744946345-UnityPersXXXX
   Product: Unity Personal
@@ -133,50 +133,50 @@ Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/60
   Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
   Product: Unity Personal
   Type: ULF
-  Expiration: 2026-02-23T10:06:56Z
+  Expiration: 2026-02-23T11:38:24Z
 [Licensing::Module] License group:
   Id: 18966744946345-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.046197 seconds.
-- Loaded All Assemblies, in  1.043 seconds
+Registered in 0.028012 seconds.
+- Loaded All Assemblies, in  0.488 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 585 ms
+Android Extension - Scanning For ADB Devices 295 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.392 seconds
-Domain Reload Profiling: 2420ms
-	BeginReloadAssembly (289ms)
+- Finished resetting the current domain, in  0.718 seconds
+Domain Reload Profiling: 1205ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (190ms)
-	LoadAllAssembliesAndSetupDomain (441ms)
-		LoadAssemblies (287ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (146ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (430ms)
-			TypeCache.Refresh (427ms)
-				TypeCache.ScanAssembly (396ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (171ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1393ms)
+	FinalizeReload (719ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1296ms)
+		SetupLoadedEditorAssemblies (669ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (795ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (240ms)
-			ProcessInitializeOnLoadMethodAttributes (118ms)
+			InitializePlatformSupportModulesInManaged (408ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -190,14 +190,14 @@ Begin MonoManager ReloadAssembly
   Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
   Product: Unity Personal
   Type: ULF
-  Expiration: 2026-02-23T10:06:56Z
+  Expiration: 2026-02-23T11:38:24Z
 [Licensing::Module] License group:
   Id: 18966744946345-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.975 seconds
-Refreshing native plugins compatible for Editor in 17.11 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.019 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -207,287 +207,2083 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.533 seconds
-Domain Reload Profiling: 3498ms
-	BeginReloadAssembly (381ms)
+- Finished resetting the current domain, in  0.961 seconds
+Domain Reload Profiling: 1977ms
+	BeginReloadAssembly (237ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (80ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (1393ms)
-		LoadAssemblies (930ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (671ms)
+		LoadAssemblies (473ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (675ms)
-			TypeCache.Refresh (491ms)
-				TypeCache.ScanAssembly (448ms)
-			BuildScriptInfoCaches (152ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1534ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (211ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (963ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1223ms)
+		SetupLoadedEditorAssemblies (769ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (252ms)
-			ProcessInitializeOnLoadAttributes (727ms)
-			ProcessInitializeOnLoadMethodAttributes (205ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (170ms)
 			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6732 unused Assets / (5.9 MB). Loaded Objects now: 7458.
-Memory consumption went from 140.8 MB to 134.9 MB.
-Total: 21.802000 ms (FindLiveObjects: 2.444200 ms CreateObjectMapping: 1.576100 ms MarkObjects: 11.270400 ms  DeleteObjects: 6.507300 ms)
+Unloading 6734 unused Assets / (5.5 MB). Loaded Objects now: 7461.
+Memory consumption went from 140.4 MB to 134.9 MB.
+Total: 12.959500 ms (FindLiveObjects: 2.122300 ms CreateObjectMapping: 0.764100 ms MarkObjects: 6.304100 ms  DeleteObjects: 3.766400 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.102 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.851 seconds
+Domain Reload Profiling: 1954ms
+	BeginReloadAssembly (304ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (532ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (249ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6732 unused Assets / (5.4 MB). Loaded Objects now: 7464.
+Memory consumption went from 141.4 MB to 136.0 MB.
+Total: 9.311400 ms (FindLiveObjects: 0.603500 ms CreateObjectMapping: 0.576400 ms MarkObjects: 5.578500 ms  DeleteObjects: 2.551400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2751626.650159 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a97903960094c9bc266e74a7e53ad36') in 0.0328841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2659849.736782 seconds.
-  path: Assets/ConversationsDatabase.asset
-  artifactKey: Guid(7f5c38c1fc17fd94aa1ac478be31cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ConversationsDatabase.asset using Guid(7f5c38c1fc17fd94aa1ac478be31cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Serialization depth limit 10 exceeded at 'Dialogue.dialogueFile'. There may be an object composition cycle in one or more of your serialized classes. Consider rearranging data or use `[SerializeReference]`. 
+  Time since last request: 15.183503 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationDropdownDrawer.cs
+  artifactKey: Guid(9d2384c7c0276a14580261c0eb335839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationDropdownDrawer.cs using Guid(9d2384c7c0276a14580261c0eb335839) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4d9951b00eec69315dd8727dc544b32') in 0.001721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Serialization hierarchy:
-11: Dialogue.dialogueFile
-10: ConversationNode.dialogue
-9: ConversationNode.children
-8: ConversationNode.children
-7: ConversationNode.children
-6: ConversationNode.children
-5: ConversationNode.children
-4: ConversationNode.children
-3: ConversationNode.children
-2: ConversationNode.children
-1: ConversationNode.children
-0: Conversation.nodesList
-Serialization depth limit 10 exceeded at 'Dialogue.dialogueFile'. There may be an object composition cycle in one or more of your serialized classes. Consider rearranging data or use `[SerializeReference]`. 
+========================================================================
+Received Import Request.
+  Time since last request: 42.888212 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationNode.cs
+  artifactKey: Guid(4342c35753d4ae746a0539af327ae230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationNode.cs using Guid(4342c35753d4ae746a0539af327ae230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1eee27a800a62493d2111965d0f4923c') in 0.0043185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Serialization hierarchy:
-11: Dialogue.dialogueFile
-10: ConversationNode.dialogue
-9: ConversationNode.children
-8: ConversationNode.children
-7: ConversationNode.children
-6: ConversationNode.children
-5: ConversationNode.children
-4: ConversationNode.children
-3: ConversationNode.children
-2: ConversationNode.children
-1: ConversationNode.children
-0: ConversationNode.children
- -> (artifact id: '5122d6ab6da25355caa651a12c9a92fd') in 0.0418635 seconds
+========================================================================
+Received Import Request.
+  Time since last request: 3.766193 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationsDatabase.cs
+  artifactKey: Guid(3cfe2c70941d5654184cebaa0c553611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationsDatabase.cs using Guid(3cfe2c70941d5654184cebaa0c553611) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8f52bda94fcc7d8301cf5ec4f350e06') in 0.0020968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.873162 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Dialogue.cs
+  artifactKey: Guid(eccd68ab48982eb418f1324ce7193d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Dialogue.cs using Guid(eccd68ab48982eb418f1324ce7193d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1419b6c6ad516fdfc70eeceef75aea5d') in 0.0010082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.657330 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/DialogueSystem.cs
+  artifactKey: Guid(75663dc0fdcbef4458e0677e01b646de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/DialogueSystem.cs using Guid(75663dc0fdcbef4458e0677e01b646de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6f5cacd692b11329e2d183c614e9a0a') in 0.0022935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.764741 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/RuntimeFunctionRegistry.cs
+  artifactKey: Guid(39edc77dfa6d0974a914900e57b4ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/RuntimeFunctionRegistry.cs using Guid(39edc77dfa6d0974a914900e57b4ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2c9f3242b6e988fac7e0013f188ea36') in 0.0019435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (4.6 MB). Loaded Objects now: 7467.
+Memory consumption went from 142.3 MB to 137.8 MB.
+Total: 16.442600 ms (FindLiveObjects: 1.900000 ms CreateObjectMapping: 1.268400 ms MarkObjects: 10.661400 ms  DeleteObjects: 2.610700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.211246 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/ConversationsHandler.cs
+  artifactKey: Guid(c5b2074bc0953c945bfb4d14f8ea925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Editor/ConversationsHandler.cs using Guid(c5b2074bc0953c945bfb4d14f8ea925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '807d1e619b3545752bcc60d1bcb40a0c') in 0.0104652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.770348 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/DialogueHandler.cs
+  artifactKey: Guid(9b86df13538e7864daa850cf02e2455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Editor/DialogueHandler.cs using Guid(9b86df13538e7864daa850cf02e2455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3fb01a735fbc97f75778f4f55baa94b') in 0.0125951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.602309 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/EditorQuitHandler.cs
+  artifactKey: Guid(db2e924daf96fc04882c547d6c8340a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Editor/EditorQuitHandler.cs using Guid(db2e924daf96fc04882c547d6c8340a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fbe042a9df7c7599b77de64c1ecc9b9') in 0.0031231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.864352 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/ConversationCreator.cs
+  artifactKey: Guid(01d81ee789c6b5243a1bd851524d4896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Editor/ConversationCreator.cs using Guid(01d81ee789c6b5243a1bd851524d4896) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0262c9f64bc288ebe7f488258cc08ab') in 0.0014033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.042414 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/ConditionalPromptWindow.cs
+  artifactKey: Guid(eab703e2267295b4382869c8714c2630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Editor/ConditionalPromptWindow.cs using Guid(eab703e2267295b4382869c8714c2630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '429b2902dad937a7dc2c8fa82271377c') in 0.0054091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.378564 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/CharactersHandler.cs
+  artifactKey: Guid(f9af39c715d575b4ebab8ada6a1110f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Editor/CharactersHandler.cs using Guid(f9af39c715d575b4ebab8ada6a1110f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f167aff210b46dc2ac0b48e9c68fdfd2') in 0.0021319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (4.8 MB). Loaded Objects now: 7467.
+Memory consumption went from 142.3 MB to 137.5 MB.
+Total: 13.650600 ms (FindLiveObjects: 1.053700 ms CreateObjectMapping: 0.676600 ms MarkObjects: 8.782600 ms  DeleteObjects: 3.135100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.804 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.936 seconds
+Domain Reload Profiling: 2732ms
+	BeginReloadAssembly (673ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (60ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (226ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (950ms)
+		LoadAssemblies (931ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (231ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (936ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (738ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6732 unused Assets / (4.8 MB). Loaded Objects now: 7469.
+Memory consumption went from 142.2 MB to 137.3 MB.
+Total: 8.734100 ms (FindLiveObjects: 0.675900 ms CreateObjectMapping: 0.751100 ms MarkObjects: 5.003500 ms  DeleteObjects: 2.298300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (5.3 MB). Loaded Objects now: 7469.
+Memory consumption went from 142.3 MB to 137.1 MB.
+Total: 11.275600 ms (FindLiveObjects: 0.705600 ms CreateObjectMapping: 0.622800 ms MarkObjects: 7.154300 ms  DeleteObjects: 2.791200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 74.595605 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Character.cs
+  artifactKey: Guid(70368310a3cb1db42ad0e67a02c32ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Character.cs using Guid(70368310a3cb1db42ad0e67a02c32ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb2bd5226ddc2a6cee979dc215720f82') in 0.0472448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.253235 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/CharacterDatabase.cs
+  artifactKey: Guid(d985a59ecc43d164ebe2f586c895c5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/CharacterDatabase.cs using Guid(d985a59ecc43d164ebe2f586c895c5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a2e0888e1dfbfeeae5eaf330fc4a277') in 0.0010075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.794735 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Conversation.cs
+  artifactKey: Guid(37b2533393ca97b49a3f41e38549e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Conversation.cs using Guid(37b2533393ca97b49a3f41e38549e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a7a44d4acc19bd1b2199c601104b70b') in 0.0011415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.445918 seconds.
+  path: Assets/CharacterDatabase.asset
+  artifactKey: Guid(d9b14688e8ea38b488100e24038d5f6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CharacterDatabase.asset using Guid(d9b14688e8ea38b488100e24038d5f6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3eddbf164665394382e9a153887e1b2') in 0.3316381 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/CharacterDatabase.asset
-  artifactKey: Guid(d9b14688e8ea38b488100e24038d5f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CharacterDatabase.asset using Guid(d9b14688e8ea38b488100e24038d5f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '446ccd367060d2c4ff6c8b29d828298b') in 0.0037108 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_pink.png
+  artifactKey: Guid(2f3f8c410991cce449529d20cba444ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_pink.png using Guid(2f3f8c410991cce449529d20cba444ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+ -> (artifact id: '91e624478b1b9a50f090b00de092510d') in 0.1511502 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.284075 seconds.
-  path: Assets/ConversationsDatabase.asset
-  artifactKey: Guid(7f5c38c1fc17fd94aa1ac478be31cb3a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/ConversationsDatabase.asset using Guid(7f5c38c1fc17fd94aa1ac478be31cb3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bb7123a3d39939bd939aaf24fcdd4cd') in 0.3106042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e4f93a04bd62321ab091b30d796a643') in 0.0394225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_blue.png
+  artifactKey: Guid(1645075a861e06d4c824954aa315d19e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_blue.png using Guid(1645075a861e06d4c824954aa315d19e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bc525c209c84c83f3831f6c7d4f1e74') in 0.2004989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/Samples/SampleDialogueFile_Arin.txt
+  artifactKey: Guid(2d533b0880464b749b99a824b375ed0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Resources/Samples/SampleDialogueFile_Arin.txt using Guid(2d533b0880464b749b99a824b375ed0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e9e82a4d6ea993e108ff6d58bd1ad67') in 0.0374909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10cc82a10038c6b036f3efcdf49367ee') in 0.0454796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Character.cs
+  artifactKey: Guid(70368310a3cb1db42ad0e67a02c32ac6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Character.cs using Guid(70368310a3cb1db42ad0e67a02c32ac6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '445684b369da2917727205034ade75c2') in 0.0323686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f78a6c0aa89cac97a0f2642885ee68d3') in 0.1298254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_orange.png
+  artifactKey: Guid(62a40e7573274a8458edf37ff0703489) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_orange.png using Guid(62a40e7573274a8458edf37ff0703489) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1a762cacc4f69424599377a6e636a11') in 0.0832711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eba0f0fac64ce9d5e1337e6365507bf') in 0.0289467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/Golden_Plains.png
+  artifactKey: Guid(c7b4e875271d2394795a1c728b276a8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/Golden_Plains.png using Guid(c7b4e875271d2394795a1c728b276a8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8194c1f8d7105ac890de954c0acd578e') in 0.0805997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_purple.png
+  artifactKey: Guid(a2271b3feb2213c47bbdc2c1186f24a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_purple.png using Guid(a2271b3feb2213c47bbdc2c1186f24a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dfbddfd9ceeb814c930c9150613411f') in 0.0647885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_green.png
+  artifactKey: Guid(aa582f8aac3e4c24f946e13fd12a21e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_green.png using Guid(aa582f8aac3e4c24f946e13fd12a21e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0476a35ae310ac7bcb038d38f2c98eeb') in 0.0865248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_orange.png
+  artifactKey: Guid(6cfcfae5c634ab446af3e6d2a8192395) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_orange.png using Guid(6cfcfae5c634ab446af3e6d2a8192395) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0b9646c37e98dd4988e4a5e324425dc') in 0.0791989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationNode.cs
+  artifactKey: Guid(4342c35753d4ae746a0539af327ae230) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationNode.cs using Guid(4342c35753d4ae746a0539af327ae230) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdd8e6282de2dd8c328168f81aa87574') in 0.0313692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_green.png
+  artifactKey: Guid(eab76aacf8fe41246b4e26a70bb68f4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_green.png using Guid(eab76aacf8fe41246b4e26a70bb68f4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0c9fee6339acaebff5cb4ee33dd14e4') in 0.0706713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59035559df4777bee9114c8376037121') in 0.0323707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_red.png
+  artifactKey: Guid(32d2f9e6ba53c4d4c9b5281ea2b6e55d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_red.png using Guid(32d2f9e6ba53c4d4c9b5281ea2b6e55d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c5bceb7067b5e0e171ba8cdc7b3ff68') in 0.082573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/Tavern_Night.png
+  artifactKey: Guid(70e6e32da974eb7449598ba89f6d357a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/Tavern_Night.png using Guid(70e6e32da974eb7449598ba89f6d357a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4cf00cf2b1b0ed57e98660948f36547') in 0.0676465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_yellow.png
+  artifactKey: Guid(19467cd75c5f8fd4b9ed4d061ad3894f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_yellow.png using Guid(19467cd75c5f8fd4b9ed4d061ad3894f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3154a14c012770e63a9338216e360886') in 0.0923495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_orange.png
+  artifactKey: Guid(46518aafed4020f499d117ff06d564be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_orange.png using Guid(46518aafed4020f499d117ff06d564be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32252c77d97c4ca956a3f77c2969f172') in 0.0802133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d1bf5b78b819828833bccb2d72eb8c3') in 0.1546542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_orange.png
+  artifactKey: Guid(183286591d2b6894ab207256345de7ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_orange.png using Guid(183286591d2b6894ab207256345de7ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcb9596d69186ef480c94a2c0b3f1cdf') in 0.0987563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_pink.png
+  artifactKey: Guid(9a955267292319d4680e76a5cb08546e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_pink.png using Guid(9a955267292319d4680e76a5cb08546e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40617b97bebdb7781110e9cac5b68217') in 0.0626729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/SampleUIController.cs
+  artifactKey: Guid(dbb9a33ac90d1ef4989e88601c97b962) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/SampleUIController.cs using Guid(dbb9a33ac90d1ef4989e88601c97b962) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a90b7d625681d9e5a1333516d1a8ee61') in 0.0288321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (5.4 MB). Loaded Objects now: 7469.
+Memory consumption went from 142.9 MB to 137.5 MB.
+Total: 32.124400 ms (FindLiveObjects: 1.510600 ms CreateObjectMapping: 2.492400 ms MarkObjects: 17.885200 ms  DeleteObjects: 10.233300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.604932 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/Village_Dawn.png
+  artifactKey: Guid(30036c413563b8e4f8c50d2b7de8c12b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/Village_Dawn.png using Guid(30036c413563b8e4f8c50d2b7de8c12b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77c813837e911d693eed63c248f82dfc') in 0.0707608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_yellow.png
+  artifactKey: Guid(c7caa58f79ba6114e8ed95aaaf01612d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_yellow.png using Guid(c7caa58f79ba6114e8ed95aaaf01612d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '711a80fcd2ff78e0b49c110736f2a330') in 0.0813459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_red.png
+  artifactKey: Guid(ec2438d6a0f2c344a9a778743762aaa1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_red.png using Guid(ec2438d6a0f2c344a9a778743762aaa1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b89057fd353435f481beb753556cec73') in 0.0608408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4eaffc7db5ffac2e3b41f38d44fe0183') in 0.1175526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da1d7a0e883ab028ebce0c83d72e5258') in 0.0522435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.444685 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '511ee88f73842283948c2bc4bb539456') in 0.0398229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0102693b73b45ea0c008087dca5b5506') in 0.0337858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_orange.png
+  artifactKey: Guid(2a91ae0b2408dc3498c47cc3a686e1e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_orange.png using Guid(2a91ae0b2408dc3498c47cc3a686e1e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2dc76202607a6c4c3b779ae733d09ed') in 0.0808338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_purple.png
+  artifactKey: Guid(492a6ba6b4fc16044987158fe220312f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_purple.png using Guid(492a6ba6b4fc16044987158fe220312f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d0b87247f564693ab6b2bc1812c2b9f') in 0.0793587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/CharactersHandler.cs
+  artifactKey: Guid(f9af39c715d575b4ebab8ada6a1110f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Editor/CharactersHandler.cs using Guid(f9af39c715d575b4ebab8ada6a1110f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e3527773177c3df4f636398f92bddde') in 0.0310977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '444c6d450483ae624e448c3820d07984') in 0.0294664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_blue.png
+  artifactKey: Guid(dfb9cb450a23cf64aa784d7873ec39b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_blue.png using Guid(dfb9cb450a23cf64aa784d7873ec39b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cb974322a09efd950a8aff2e44cc3ae') in 0.0604072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ccfe80fd0a4928d7051d0fb9fddf1c5') in 0.039978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/ConditionalPromptWindow.cs
+  artifactKey: Guid(eab703e2267295b4382869c8714c2630) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Editor/ConditionalPromptWindow.cs using Guid(eab703e2267295b4382869c8714c2630) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc817477f5c543cedfa28ba518163ec8') in 0.0257777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ddd3d5103c0aa712306b71d5379ad04') in 0.0313373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationsDatabase.cs
+  artifactKey: Guid(3cfe2c70941d5654184cebaa0c553611) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationsDatabase.cs using Guid(3cfe2c70941d5654184cebaa0c553611) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9fa3649d6a88506e818ed2dc5eadff1') in 0.0330126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_pink.png
+  artifactKey: Guid(5a8045803b0670d49a8491ab1428db36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_pink.png using Guid(5a8045803b0670d49a8491ab1428db36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9894b87c075075aa89408318bd59169d') in 0.0578505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_red.png
+  artifactKey: Guid(ed43c99e8c88b2949ad7b4e935887f90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_red.png using Guid(ed43c99e8c88b2949ad7b4e935887f90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a667c8c34e1227e45a00c58b5d2ebdd') in 0.0653534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_green.png
+  artifactKey: Guid(e32526d64feec174d91fc899ffe53ed1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_green.png using Guid(e32526d64feec174d91fc899ffe53ed1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a6148e6b0dacd205ef9f9d48dd0cc8c') in 0.0792429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_yellow.png
+  artifactKey: Guid(4914b4a00b71f4d48a77d74138f05b7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_yellow.png using Guid(4914b4a00b71f4d48a77d74138f05b7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '560e95d093ca49fe8cad7dc2e68f07d8') in 0.0711566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
   path: Assets/com.Snype.visualnovel/package.json
   artifactKey: Guid(f3bce84b06796984a88feb034a748eba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/com.Snype.visualnovel/package.json using Guid(f3bce84b06796984a88feb034a748eba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b21c958190748347035a0e8657774eba') in 0.0288605 seconds
+Start importing Assets/com.Snype.visualnovel/package.json using Guid(f3bce84b06796984a88feb034a748eba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06b27beaeedf9774e372cf4693c81a2f') in 0.0462487 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '298785683b46eb88c08118f5d081df41') in 0.2616257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
-  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ffda98a76345f2cb292aa488e862a43') in 0.0399506 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c08ef7ea09ec5796061c00d1812d7b6b') in 0.043913 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
-  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c70be0f736103e8e4cb44d1f46be7b52') in 0.0319753 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000051 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_orange.png
+  artifactKey: Guid(24e313f39c6fd814882d9f7598fbec88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_orange.png using Guid(24e313f39c6fd814882d9f7598fbec88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17a5000cf014ffbc15f32e7896403740') in 0.0615754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
+  Time since last request: 0.000053 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Dialogue.cs
+  artifactKey: Guid(eccd68ab48982eb418f1324ce7193d2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Dialogue.cs using Guid(eccd68ab48982eb418f1324ce7193d2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9426ca1341e0c576859ac2804ccb6a95') in 0.0260225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
   path: Assets/TextMesh Pro/Shaders/TMPro.cginc
   artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bcd1b39100c32999f3e2e7666408b6b') in 0.0285334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
-  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16103c9721892f33f1d2ec147e3f273e') in 0.0330431 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48f838d6a365b0a01311cfca74efd868') in 0.0788305 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
-  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09add295f3cb2a128b8cbb46e88e88f1') in 0.0305612 seconds
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd64e94b711176b91512af06338551a71') in 0.0409349 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000054 seconds.
-  path: Assets/Settings/UniversalRP.asset
-  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e9df1a4cba39d196723558a76f89498') in 0.1117743 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.604112 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9c667903f7e920153081ad5c8e5fca6') in 0.1057598 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b37a0e6616d7ab37c492a12051870258') in 0.0975014 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationNode.cs
-  artifactKey: Guid(4342c35753d4ae746a0539af327ae230) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/ConversationNode.cs using Guid(4342c35753d4ae746a0539af327ae230) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93947962232047b1c4129c1b8d52921a') in 0.0377302 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
-  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '038e4144efbd878ca9f2a4f6991eb27c') in 0.029875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/com.Snype.visualnovel/Editor/ConversationCreator.cs
-  artifactKey: Guid(01d81ee789c6b5243a1bd851524d4896) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/com.Snype.visualnovel/Editor/ConversationCreator.cs using Guid(01d81ee789c6b5243a1bd851524d4896) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '608c27c90a6986bd95f82ca0096a95a2') in 0.031699 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/com.Snype.visualnovel/Editor/ConversationsHandler.cs
-  artifactKey: Guid(c5b2074bc0953c945bfb4d14f8ea925b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/com.Snype.visualnovel/Editor/ConversationsHandler.cs using Guid(c5b2074bc0953c945bfb4d14f8ea925b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '972ef0049d5b1d464bdeb857e98a5460') in 0.0288023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/com.Snype.visualnovel/Samples/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/com.Snype.visualnovel/Samples/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5fea9deccbcff9766a651ac61882741') in 0.0274847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
-  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f2b2cb3de20b40aeb9b768af3577511') in 0.035278 seconds
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_green.png
+  artifactKey: Guid(66b2b07df9b18a44eb34ae0268049e2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_green.png using Guid(66b2b07df9b18a44eb34ae0268049e2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b488a7e605aee9673bf01a0d973936c') in 0.0644049 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/CharacterDatabase.cs
-  artifactKey: Guid(d985a59ecc43d164ebe2f586c895c5e3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/CharacterDatabase.cs using Guid(d985a59ecc43d164ebe2f586c895c5e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '021a86ef906010ac1a85b8584cae8ea9') in 0.031282 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000093 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_pink.png
+  artifactKey: Guid(923b9704dc3af1944a9c287878eb6ed0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_pink.png using Guid(923b9704dc3af1944a9c287878eb6ed0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37669ef6bb1576877eefe3ce4884fc71') in 0.0707932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
-  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c476d3e352f53e294ab898dd2ca0f13') in 0.0272515 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000033 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/Erin_No-Bg.png
+  artifactKey: Guid(acbec086e126ce040a46f13bddeea08d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/Erin_No-Bg.png using Guid(acbec086e126ce040a46f13bddeea08d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9b6a0a03e6f6d842dc02e9316b3a9b0') in 0.0485052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_yellow.png
+  artifactKey: Guid(bd32323f6e84d4d43a45555a5bacb13c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_yellow.png using Guid(bd32323f6e84d4d43a45555a5bacb13c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '538588da37259503e046998a2ffd50f9') in 0.0596734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_blue.png
+  artifactKey: Guid(1da7fbb3947311f49b099b0b17714f88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_blue.png using Guid(1da7fbb3947311f49b099b0b17714f88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b962ddaa5ef788de3b8a25fe6d86e396') in 0.0629686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/com.Snype.visualnovel/Editor/ConditionalPromptWindow.cs
-  artifactKey: Guid(eab703e2267295b4382869c8714c2630) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/com.Snype.visualnovel/Editor/ConditionalPromptWindow.cs using Guid(eab703e2267295b4382869c8714c2630) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '373cd8ff663337cbdaf1260af8212c57') in 0.0274378 seconds
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_blue.png
+  artifactKey: Guid(641b2abf0eb4cd24690cdfdf3ed8514b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_blue.png using Guid(641b2abf0eb4cd24690cdfdf3ed8514b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '373f73f3e1fa65ed644df9a2535619cc') in 0.0679298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_purple.png
+  artifactKey: Guid(5f6fe78f122555b469998492cfe13783) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_purple.png using Guid(5f6fe78f122555b469998492cfe13783) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f6bfdd1434a9986e15ca5edfc9e65ec') in 0.0585855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/ConversationCreator.cs
+  artifactKey: Guid(01d81ee789c6b5243a1bd851524d4896) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Editor/ConversationCreator.cs using Guid(01d81ee789c6b5243a1bd851524d4896) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e2db94fe54cd26a7abe33210f71e48a') in 0.0276944 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17b1dbd76bd9623bfa1f05a493460fad') in 0.0304143 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000033 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_yellow.png
+  artifactKey: Guid(ddc086cbecd988943acc666c578c8ac3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_yellow.png using Guid(ddc086cbecd988943acc666c578c8ac3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23a446cae72cff40fc685738ea591502') in 0.062358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/com.Snype.visualnovel/Editor/DialogueHandler.cs
-  artifactKey: Guid(9b86df13538e7864daa850cf02e2455f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/com.Snype.visualnovel/Editor/DialogueHandler.cs using Guid(9b86df13538e7864daa850cf02e2455f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6a1aa5f18202a586f03a0e0108de8dc') in 0.0246636 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_pink.png
+  artifactKey: Guid(a3c68d007f11cd348b0e9568de6f7f2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_pink.png using Guid(a3c68d007f11cd348b0e9568de6f7f2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e77143947b2fd355629fe4f60aa9dac') in 0.0637343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a26b3fa5cd88970012f227dc7d9fe18b') in 0.0534845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_green.png
+  artifactKey: Guid(09e0333e12960ee4fadc5f4bb58fbab4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_green.png using Guid(09e0333e12960ee4fadc5f4bb58fbab4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8360629a2d299720e27756fd766809a0') in 0.0631178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/DialogueSystem.cs
+  artifactKey: Guid(75663dc0fdcbef4458e0677e01b646de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/DialogueSystem.cs using Guid(75663dc0fdcbef4458e0677e01b646de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ef0740cfdf3c9c2d0bdab55d71e155e') in 0.0296471 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Conversation.cs
-  artifactKey: Guid(37b2533393ca97b49a3f41e38549e61e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Conversation.cs using Guid(37b2533393ca97b49a3f41e38549e61e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b248c7146f0d17e4b9720fee6a8b9803') in 0.0262662 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/CharacterDatabase.cs
+  artifactKey: Guid(d985a59ecc43d164ebe2f586c895c5e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/CharacterDatabase.cs using Guid(d985a59ecc43d164ebe2f586c895c5e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83ee8baf51f2ec1e60b21b2119bbf6a1') in 0.0246743 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_red.png
+  artifactKey: Guid(c07efa2d0e5c1e343a6f75f1aeefaa65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_red.png using Guid(c07efa2d0e5c1e343a6f75f1aeefaa65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1553dd2aa839542174c133c90b588baf') in 0.0718612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_red.png
+  artifactKey: Guid(0827f3d47a013ff47a9627552643369f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_red.png using Guid(0827f3d47a013ff47a9627552643369f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2af17fe73a0128fb6bb33e29c08b784c') in 0.0704737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_red.png
+  artifactKey: Guid(0f53748c17de38d4195d1b21be1d7448) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_red.png using Guid(0f53748c17de38d4195d1b21be1d7448) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '309aa71781c8cebc1f1581e51aa67a55') in 0.0596442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_green.png
+  artifactKey: Guid(0c0f7320d0f41504ab8b7d4f8fcc260b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_green.png using Guid(0c0f7320d0f41504ab8b7d4f8fcc260b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3a243a5b48d94364f80bf78b3c0c29c') in 0.0623932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '952d498f03558681cc1fbdc7e006aaa0') in 0.0459429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6722 unused Assets / (3.5 MB). Loaded Objects now: 7470.
+Memory consumption went from 143.3 MB to 139.8 MB.
+Total: 30.362500 ms (FindLiveObjects: 1.487500 ms CreateObjectMapping: 1.535600 ms MarkObjects: 19.999900 ms  DeleteObjects: 7.337000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (3.8 MB). Loaded Objects now: 7470.
+Memory consumption went from 143.3 MB to 139.5 MB.
+Total: 29.680200 ms (FindLiveObjects: 2.190400 ms CreateObjectMapping: 2.011200 ms MarkObjects: 18.142500 ms  DeleteObjects: 7.333300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (5.2 MB). Loaded Objects now: 7470.
+Memory consumption went from 143.3 MB to 138.1 MB.
+Total: 19.445500 ms (FindLiveObjects: 1.058800 ms CreateObjectMapping: 1.604500 ms MarkObjects: 12.186800 ms  DeleteObjects: 4.592700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (3.5 MB). Loaded Objects now: 7470.
+Memory consumption went from 143.3 MB to 139.8 MB.
+Total: 25.788600 ms (FindLiveObjects: 1.690000 ms CreateObjectMapping: 2.321900 ms MarkObjects: 16.395100 ms  DeleteObjects: 5.378600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.105 seconds
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.223 seconds
+Domain Reload Profiling: 2328ms
+	BeginReloadAssembly (330ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (663ms)
+		LoadAssemblies (536ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (226ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (973ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (249ms)
+			ProcessInitializeOnLoadAttributes (578ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6732 unused Assets / (5.4 MB). Loaded Objects now: 7472.
+Memory consumption went from 142.4 MB to 136.9 MB.
+Total: 14.664700 ms (FindLiveObjects: 0.970100 ms CreateObjectMapping: 1.174100 ms MarkObjects: 8.111400 ms  DeleteObjects: 4.406900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (6.2 MB). Loaded Objects now: 7472.
+Memory consumption went from 142.5 MB to 136.3 MB.
+Total: 24.099400 ms (FindLiveObjects: 1.726800 ms CreateObjectMapping: 1.393500 ms MarkObjects: 14.561400 ms  DeleteObjects: 6.415500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.470 seconds
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.803 seconds
+Domain Reload Profiling: 3272ms
+	BeginReloadAssembly (464ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (824ms)
+		LoadAssemblies (774ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (228ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1804ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (391ms)
+			ProcessInitializeOnLoadAttributes (944ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 4.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6732 unused Assets / (4.2 MB). Loaded Objects now: 7474.
+Memory consumption went from 142.4 MB to 138.2 MB.
+Total: 17.703900 ms (FindLiveObjects: 1.371600 ms CreateObjectMapping: 1.450800 ms MarkObjects: 9.986200 ms  DeleteObjects: 4.892200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.923 seconds
+Refreshing native plugins compatible for Editor in 7.02 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.388 seconds
+Domain Reload Profiling: 4304ms
+	BeginReloadAssembly (503ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (1236ms)
+		LoadAssemblies (893ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (569ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (504ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (2389ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1836ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (710ms)
+			ProcessInitializeOnLoadAttributes (909ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 4.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6732 unused Assets / (5.1 MB). Loaded Objects now: 7476.
+Memory consumption went from 142.4 MB to 137.3 MB.
+Total: 16.099300 ms (FindLiveObjects: 1.223100 ms CreateObjectMapping: 0.928900 ms MarkObjects: 9.824300 ms  DeleteObjects: 4.120600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (4.2 MB). Loaded Objects now: 7476.
+Memory consumption went from 142.5 MB to 138.3 MB.
+Total: 15.175100 ms (FindLiveObjects: 1.362400 ms CreateObjectMapping: 1.267800 ms MarkObjects: 9.048800 ms  DeleteObjects: 3.493200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.908 seconds
+Refreshing native plugins compatible for Editor in 11.51 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.622 seconds
+Domain Reload Profiling: 4527ms
+	BeginReloadAssembly (492ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (1229ms)
+		LoadAssemblies (916ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (552ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (497ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (377ms)
+			ProcessInitializeOnLoadAttributes (1556ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 9.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6732 unused Assets / (5.4 MB). Loaded Objects now: 7478.
+Memory consumption went from 142.5 MB to 137.1 MB.
+Total: 26.457300 ms (FindLiveObjects: 2.048900 ms CreateObjectMapping: 8.069700 ms MarkObjects: 10.630200 ms  DeleteObjects: 5.706000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (5.1 MB). Loaded Objects now: 7478.
+Memory consumption went from 142.6 MB to 137.5 MB.
+Total: 20.869500 ms (FindLiveObjects: 1.840800 ms CreateObjectMapping: 2.515500 ms MarkObjects: 11.940900 ms  DeleteObjects: 4.569900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.506 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.298 seconds
+Domain Reload Profiling: 2803ms
+	BeginReloadAssembly (485ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (828ms)
+		LoadAssemblies (768ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (255ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1078ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (712ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6732 unused Assets / (4.9 MB). Loaded Objects now: 7480.
+Memory consumption went from 142.5 MB to 137.6 MB.
+Total: 10.080400 ms (FindLiveObjects: 0.790900 ms CreateObjectMapping: 0.789500 ms MarkObjects: 5.812700 ms  DeleteObjects: 2.685200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.902 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.831 seconds
+Domain Reload Profiling: 1734ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (215ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6732 unused Assets / (6.9 MB). Loaded Objects now: 7482.
+Memory consumption went from 142.5 MB to 135.6 MB.
+Total: 10.374300 ms (FindLiveObjects: 0.649000 ms CreateObjectMapping: 0.575600 ms MarkObjects: 5.178400 ms  DeleteObjects: 3.969200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6720 unused Assets / (5.0 MB). Loaded Objects now: 7481.
+Memory consumption went from 142.7 MB to 137.7 MB.
+Total: 13.124100 ms (FindLiveObjects: 0.855500 ms CreateObjectMapping: 0.685100 ms MarkObjects: 7.047300 ms  DeleteObjects: 4.533700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.326 seconds
+Refreshing native plugins compatible for Editor in 17.40 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.043 seconds
+Domain Reload Profiling: 3371ms
+	BeginReloadAssembly (529ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (138ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (683ms)
+		LoadAssemblies (596ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (295ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2045ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (417ms)
+			ProcessInitializeOnLoadAttributes (925ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 5.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.5 MB). Loaded Objects now: 7483.
+Memory consumption went from 142.6 MB to 137.1 MB.
+Total: 38.124300 ms (FindLiveObjects: 1.489400 ms CreateObjectMapping: 1.729400 ms MarkObjects: 11.031300 ms  DeleteObjects: 23.870700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.889 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.996 seconds
+Domain Reload Profiling: 1886ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (208ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (997ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (801ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (511ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (4.6 MB). Loaded Objects now: 7485.
+Memory consumption went from 142.5 MB to 137.9 MB.
+Total: 11.249200 ms (FindLiveObjects: 0.742900 ms CreateObjectMapping: 0.893000 ms MarkObjects: 6.061600 ms  DeleteObjects: 3.548900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6720 unused Assets / (4.8 MB). Loaded Objects now: 7485.
+Memory consumption went from 142.7 MB to 137.9 MB.
+Total: 46.929800 ms (FindLiveObjects: 2.265800 ms CreateObjectMapping: 5.831700 ms MarkObjects: 29.875300 ms  DeleteObjects: 8.953400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.894 seconds
+Refreshing native plugins compatible for Editor in 7.80 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.894 seconds
+Domain Reload Profiling: 3788ms
+	BeginReloadAssembly (472ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (39ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1235ms)
+		LoadAssemblies (926ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (520ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (455ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (368ms)
+			ProcessInitializeOnLoadAttributes (879ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Refreshing native plugins compatible for Editor in 5.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.0 MB). Loaded Objects now: 7487.
+Memory consumption went from 142.6 MB to 137.6 MB.
+Total: 18.675300 ms (FindLiveObjects: 1.455300 ms CreateObjectMapping: 1.331100 ms MarkObjects: 10.301900 ms  DeleteObjects: 5.584300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6720 unused Assets / (3.9 MB). Loaded Objects now: 7487.
+Memory consumption went from 142.8 MB to 138.9 MB.
+Total: 26.016200 ms (FindLiveObjects: 1.865000 ms CreateObjectMapping: 3.704500 ms MarkObjects: 15.450500 ms  DeleteObjects: 4.994000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.021 seconds
+Refreshing native plugins compatible for Editor in 5.58 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.068 seconds
+Domain Reload Profiling: 5089ms
+	BeginReloadAssembly (529ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (67ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (148ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1249ms)
+		LoadAssemblies (966ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (531ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (468ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (3069ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2631ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (330ms)
+			SetLoadedEditorAssemblies (42ms)
+			BeforeProcessingInitializeOnLoad (927ms)
+			ProcessInitializeOnLoadAttributes (1144ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 5.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (4.2 MB). Loaded Objects now: 7489.
+Memory consumption went from 142.7 MB to 138.5 MB.
+Total: 17.633200 ms (FindLiveObjects: 1.392900 ms CreateObjectMapping: 1.604800 ms MarkObjects: 10.380900 ms  DeleteObjects: 4.251500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6720 unused Assets / (5.3 MB). Loaded Objects now: 7489.
+Memory consumption went from 142.8 MB to 137.5 MB.
+Total: 17.558500 ms (FindLiveObjects: 1.272000 ms CreateObjectMapping: 1.086100 ms MarkObjects: 9.970500 ms  DeleteObjects: 5.227500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.887 seconds
+Refreshing native plugins compatible for Editor in 6.21 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.898 seconds
+Domain Reload Profiling: 3785ms
+	BeginReloadAssembly (475ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (54ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (1233ms)
+		LoadAssemblies (938ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (515ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (453ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1899ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (393ms)
+			ProcessInitializeOnLoadAttributes (853ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 4.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.3 MB). Loaded Objects now: 7491.
+Memory consumption went from 142.7 MB to 137.4 MB.
+Total: 21.700800 ms (FindLiveObjects: 2.694600 ms CreateObjectMapping: 2.599900 ms MarkObjects: 11.855300 ms  DeleteObjects: 4.547900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 35.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6720 unused Assets / (4.1 MB). Loaded Objects now: 7491.
+Memory consumption went from 142.9 MB to 138.7 MB.
+Total: 52.152600 ms (FindLiveObjects: 1.587900 ms CreateObjectMapping: 19.680000 ms MarkObjects: 26.398300 ms  DeleteObjects: 4.483600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.073 seconds
+Refreshing native plugins compatible for Editor in 9.23 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.343 seconds
+Domain Reload Profiling: 3413ms
+	BeginReloadAssembly (517ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (1377ms)
+		LoadAssemblies (1090ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (519ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (460ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1344ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (968ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (396ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.1 MB). Loaded Objects now: 7493.
+Memory consumption went from 142.8 MB to 137.6 MB.
+Total: 9.365800 ms (FindLiveObjects: 1.138200 ms CreateObjectMapping: 0.564300 ms MarkObjects: 4.956500 ms  DeleteObjects: 2.705200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.875 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.936 seconds
+Domain Reload Profiling: 1812ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (211ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (936ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (736ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (451ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.4 MB). Loaded Objects now: 7495.
+Memory consumption went from 142.7 MB to 137.4 MB.
+Total: 10.367200 ms (FindLiveObjects: 1.215200 ms CreateObjectMapping: 0.643200 ms MarkObjects: 5.522600 ms  DeleteObjects: 2.983500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6720 unused Assets / (3.8 MB). Loaded Objects now: 7495.
+Memory consumption went from 142.9 MB to 139.1 MB.
+Total: 25.323000 ms (FindLiveObjects: 1.684800 ms CreateObjectMapping: 3.930300 ms MarkObjects: 9.720100 ms  DeleteObjects: 9.985300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.568 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.972 seconds
+Domain Reload Profiling: 2535ms
+	BeginReloadAssembly (507ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (876ms)
+		LoadAssemblies (848ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (249ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (973ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (771ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 4.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.1 MB). Loaded Objects now: 7497.
+Memory consumption went from 142.8 MB to 137.7 MB.
+Total: 16.291500 ms (FindLiveObjects: 1.154300 ms CreateObjectMapping: 0.910000 ms MarkObjects: 8.693100 ms  DeleteObjects: 5.528100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.897 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.971 seconds
+Domain Reload Profiling: 1870ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (562ms)
+		LoadAssemblies (434ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (218ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (972ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (775ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 1.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.1 MB). Loaded Objects now: 7499.
+Memory consumption went from 142.9 MB to 137.8 MB.
+Total: 10.986900 ms (FindLiveObjects: 0.931000 ms CreateObjectMapping: 0.677500 ms MarkObjects: 6.104600 ms  DeleteObjects: 3.271900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.848 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.905 seconds
+Domain Reload Profiling: 1756ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (521ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (211ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (434ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.4 MB). Loaded Objects now: 7501.
+Memory consumption went from 143.0 MB to 137.6 MB.
+Total: 13.525900 ms (FindLiveObjects: 0.899700 ms CreateObjectMapping: 0.868400 ms MarkObjects: 7.330100 ms  DeleteObjects: 4.425500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.906 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.837 seconds
+Domain Reload Profiling: 1744ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (550ms)
+		LoadAssemblies (422ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (216ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.2 MB). Loaded Objects now: 7503.
+Memory consumption went from 143.0 MB to 137.8 MB.
+Total: 9.351300 ms (FindLiveObjects: 0.635400 ms CreateObjectMapping: 0.731400 ms MarkObjects: 5.107700 ms  DeleteObjects: 2.875200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6720 unused Assets / (5.2 MB). Loaded Objects now: 7503.
+Memory consumption went from 143.2 MB to 137.9 MB.
+Total: 17.109000 ms (FindLiveObjects: 1.360400 ms CreateObjectMapping: 1.078500 ms MarkObjects: 10.127200 ms  DeleteObjects: 4.540700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.915 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.827 seconds
+Domain Reload Profiling: 1745ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (586ms)
+		LoadAssemblies (445ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (218ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (828ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (645ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6731 unused Assets / (5.0 MB). Loaded Objects now: 7505.
+Memory consumption went from 143.0 MB to 138.0 MB.
+Total: 9.361100 ms (FindLiveObjects: 0.672900 ms CreateObjectMapping: 0.608700 ms MarkObjects: 5.252000 ms  DeleteObjects: 2.825700 ms)
+
+Prepare: number of updated asset objects reloaded= 0

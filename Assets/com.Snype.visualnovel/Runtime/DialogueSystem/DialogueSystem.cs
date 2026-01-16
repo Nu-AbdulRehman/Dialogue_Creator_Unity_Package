@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using TMPro;
-using System.Reflection;
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -18,11 +17,12 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] List<Button> optionsButtons;
     [SerializeField] List<GameObject> optionsTexts;
 
-    [Header("     Conversations")]
-    [ConversationDropdown]
+    [Header("Conversation")]
     [SerializeField] Conversation currentConversation;
 
-    ConversationsDatabase conversationsDatabase;
+    [Header("Dialogue Options")]
+    [SerializeField] private float dialogueDelay;
+    [SerializeField] private float characterSpeed;
 
     ConversationNode nextChosen = null;
 
@@ -30,13 +30,6 @@ public class DialogueSystem : MonoBehaviour
 
     private void Awake()
     {
-        conversationsDatabase = AssetDatabase.LoadAssetAtPath<ConversationsDatabase>("Assets/ConversationsDatabase.asset");
-        if(conversationsDatabase == null)
-        {
-            Debug.LogError("No Conversations Database Found! Please Set It Up Using The Conversations Handler Window Under Window/Visual Novel Creator. If A Database Exists Please Ensure It Is Situated Under The Assets Folder");
-            return;
-        }
-
         PlayConversation();
     }
 
@@ -46,7 +39,7 @@ public class DialogueSystem : MonoBehaviour
 
         if(currentConversation == null)
         {
-            Debug.LogError("No Conversation Chosen Please Choose A Valid One From The Dropdown");
+            Debug.LogError("No Conversation Chosen Please Choose A Valid One In The Current Conversation Field!");
         }
         else
         {
@@ -58,62 +51,52 @@ public class DialogueSystem : MonoBehaviour
     {
         ConversationNode currentNode = null;
         bool currentVerseDone = false;
-        float delay = 0.015f;
-        float wait = 1f;
+        float delay = characterSpeed;
+        float wait = dialogueDelay;
 
-        currentNode = currentConversation.nodesList[0];
-
-        while (currentNode != null)
+        if(currentConversation.nodesList.Count <= 0)
         {
-            if(currentNode.nodeType == ConversationNodeType.Dialogue)
+            Debug.LogError("No Dialogues In The Chosen Convesation!");
+            yield return null;
+        }
+        else
+        {
+            currentNode = currentConversation.nodesList[0];
+
+            while (currentNode != null)
             {
-                SetCharacterVisuals(currentNode);
+                if (currentNode.nodeType == ConversationNodeType.Dialogue)
+                {
+                    SetCharacterVisuals(currentNode);
 
-                DisplayVerse(currentNode.verse, delay, () => currentVerseDone = true);
+                    DisplayVerse(currentNode.verse, delay, () => currentVerseDone = true);
 
-                yield return new WaitUntil(() => currentVerseDone == true);
+                    yield return new WaitUntil(() => currentVerseDone == true);
 
-                yield return new WaitForSeconds(wait);
+                    yield return new WaitForSeconds(wait);
 
-                currentVerseDone = false;
+                    currentVerseDone = false;
 
-                //if (currentNode.children.Count > 0)
-                //{
-                //    currentNode = currentNode.childIds.Count > 0 ? nodeLookup[currentNode.childIds[0]] : null;
-                //}
-                //else
-                //{
-                //    currentNode = null;
-                //}
+                    currentNode = currentNode.childIds.Count > 0 ? nodeLookup[currentNode.childIds[0]] : null;
+                }
+                else if (currentNode.nodeType == ConversationNodeType.Condition)
+                {
+                    DisplayChoices(currentNode);
 
-                currentNode = currentNode.childIds.Count > 0 ? nodeLookup[currentNode.childIds[0]] : null;
-            }
-            else if(currentNode.nodeType == ConversationNodeType.Condition)
-            {
-                DisplayChoices(currentNode);
+                    AssignOptions(currentNode, currentNode.numOfConditions);
 
-                AssignOptions(currentNode, currentNode.numOfConditions);
+                    yield return new WaitUntil(() => nextChosen != null);
 
-                yield return new WaitUntil(() => nextChosen != null);
+                    currentNode = nextChosen;
 
-                currentNode = nextChosen;
+                    nextChosen = null;
+                }
+                else if (currentNode.nodeType == ConversationNodeType.RunFunction)
+                {
+                    RunNodeFunction(currentNode);
 
-                nextChosen = null;
-            }
-            else if(currentNode.nodeType == ConversationNodeType.RunFunction)
-            {
-                RunNodeFunction(currentNode);
-
-                //if (currentNode.children.Count > 0)
-                //{
-                //    currentNode = currentNode.childIds.Count > 0 ? nodeLookup[currentNode.childIds[0]] : null;
-                //}
-                //else
-                //{
-                //    currentNode = null;
-                //}
-
-                currentNode = currentNode.childIds.Count > 0 ? nodeLookup[currentNode.childIds[0]] : null;
+                    currentNode = currentNode.childIds.Count > 0 ? nodeLookup[currentNode.childIds[0]] : null;
+                }
             }
         }
 
@@ -249,7 +232,6 @@ public class DialogueSystem : MonoBehaviour
         if (string.IsNullOrEmpty(node.targetScriptTypeName) || string.IsNullOrEmpty(node.methodName))
             return;
 
-        // Get the script from the runtime registry
         RuntimeFunctionRegistry registry = FindFirstObjectByType<RuntimeFunctionRegistry>();
 
         if (registry == null)
@@ -278,7 +260,6 @@ public class DialogueSystem : MonoBehaviour
             return;
         }
 
-        // Prepare parameters
         object[] args = new object[node.parameters.Count];
         for (int i = 0; i < node.parameters.Count; i++)
         {

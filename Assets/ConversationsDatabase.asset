@@ -25,8 +25,8 @@ MonoBehaviour:
     currentIndex: 0
     rect:
       serializedVersion: 2
-      x: 284
-      y: 1.5999985
+      x: 627.2
+      y: 7.2000046
       width: 200
       height: 160
     id: 15
@@ -52,8 +52,8 @@ MonoBehaviour:
     currentIndex: 1
     rect:
       serializedVersion: 2
-      x: 284.80002
-      y: 164.79999
+      x: 628
+      y: 170.4
       width: 200
       height: 160
     id: 16
@@ -79,10 +79,10 @@ MonoBehaviour:
     currentIndex: 2
     rect:
       serializedVersion: 2
-      x: 275.2
-      y: 327.19998
+      x: 618.4
+      y: 332.80005
       width: 220
-      height: 149
+      height: 120
     id: 24
     childIds: 11000000
     dialogue:
@@ -113,8 +113,8 @@ MonoBehaviour:
     currentIndex: 3
     rect:
       serializedVersion: 2
-      x: 282.39996
-      y: 475.99997
+      x: 625.6
+      y: 481.60004
       width: 200
       height: 160
     id: 17
@@ -140,8 +140,8 @@ MonoBehaviour:
     currentIndex: 4
     rect:
       serializedVersion: 2
-      x: 283.19992
-      y: 640.00024
+      x: 626.3999
+      y: 645.60016
       width: 200
       height: 160
     id: 18
@@ -166,8 +166,8 @@ MonoBehaviour:
     currentIndex: 5
     rect:
       serializedVersion: 2
-      x: 274.40002
-      y: 802.4
+      x: 617.60004
+      y: 807.99994
       width: 220
       height: 120
     id: 27
@@ -192,8 +192,8 @@ MonoBehaviour:
     currentIndex: 6
     rect:
       serializedVersion: 2
-      x: 183.99991
-      y: 923.2002
+      x: 527.19995
+      y: 928.8001
       width: 400
       height: 120
     id: 19
@@ -212,13 +212,13 @@ MonoBehaviour:
     - I think Hytale could redefine sandbox games.
     optionsPositions:
     - serializedVersion: 2
-      x: 473.59995
-      y: 1078.7998
+      x: 912.8
+      y: 1085.1998
       width: 200
       height: 60
     - serializedVersion: 2
-      x: 52.000015
-      y: 1075.6001
+      x: 328
+      y: 1089.2001
       width: 200
       height: 60
     optionsFile: {fileID: 4900000, guid: aac236603138c36468e78c67f10cddfa, type: 3}
@@ -230,34 +230,8 @@ MonoBehaviour:
     currentIndex: 7
     rect:
       serializedVersion: 2
-      x: 44.800034
-      y: 1137.6
-      width: 220
-      height: 120
-    id: 25
-    childIds: 1c000000
-    dialogue:
-      dialogueName: 
-      dialogueFile: {fileID: 0}
-      character: {fileID: 0}
-    chosenDialogueIndex: 0
-    verse: 
-    selectedLineIndex: 0
-    numOfConditions: 0
-    selectedOptions: 
-    optionsText: []
-    optionsPositions: []
-    optionsFile: {fileID: 0}
-    targetScriptTypeName: SampleUIController
-    methodName: ToggleOptions
-    parameters: []
-    isDraggable: 1
-  - nodeType: 2
-    currentIndex: 8
-    rect:
-      serializedVersion: 2
-      x: 464.80005
-      y: 1138.3994
+      x: 904.00006
+      y: 1144.7994
       width: 220
       height: 120
     id: 26
@@ -279,15 +253,15 @@ MonoBehaviour:
     parameters: []
     isDraggable: 1
   - nodeType: 2
-    currentIndex: 9
+    currentIndex: 8
     rect:
       serializedVersion: 2
-      x: 46.399994
-      y: 1257.6001
+      x: 318.40002
+      y: 1149.6
       width: 220
-      height: 149
-    id: 28
-    childIds: 14000000
+      height: 120
+    id: 25
+    childIds: 1c000000
     dialogue:
       dialogueName: 
       dialogueFile: {fileID: 0}
@@ -301,25 +275,17 @@ MonoBehaviour:
     optionsPositions: []
     optionsFile: {fileID: 0}
     targetScriptTypeName: SampleUIController
-    methodName: TransitionBackground
-    parameters:
-    - name: bg
-      typeName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      intValue: 0
-      floatValue: 0
-      stringValue: 
-      boolValue: 0
-      objectValue: {fileID: -3227604713774432372, guid: c7b4e875271d2394795a1c728b276a8a, type: 3}
+    methodName: ToggleOptions
+    parameters: []
     isDraggable: 1
   - nodeType: 2
-    currentIndex: 10
+    currentIndex: 9
     rect:
       serializedVersion: 2
-      x: 464.7999
-      y: 1260.7997
+      x: 903.99994
+      y: 1264.7997
       width: 220
-      height: 149
+      height: 120
     id: 29
     childIds: 16000000
     dialogue:
@@ -346,12 +312,46 @@ MonoBehaviour:
       boolValue: 0
       objectValue: {fileID: 3210762320809586454, guid: 7baf5f155aea6cf4e84173cf54317ad6, type: 3}
     isDraggable: 1
+  - nodeType: 2
+    currentIndex: 10
+    rect:
+      serializedVersion: 2
+      x: 318.39996
+      y: 1268.8
+      width: 220
+      height: 120
+    id: 28
+    childIds: 14000000
+    dialogue:
+      dialogueName: 
+      dialogueFile: {fileID: 0}
+      character: {fileID: 0}
+    chosenDialogueIndex: 0
+    verse: 
+    selectedLineIndex: 0
+    numOfConditions: 0
+    selectedOptions: 
+    optionsText: []
+    optionsPositions: []
+    optionsFile: {fileID: 0}
+    targetScriptTypeName: SampleUIController
+    methodName: TransitionBackground
+    parameters:
+    - name: bg
+      typeName: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      intValue: 0
+      floatValue: 0
+      stringValue: 
+      boolValue: 0
+      objectValue: {fileID: -3227604713774432372, guid: c7b4e875271d2394795a1c728b276a8a, type: 3}
+    isDraggable: 1
   - nodeType: 0
     currentIndex: 11
     rect:
       serializedVersion: 2
-      x: 48
-      y: 1368.0004
+      x: 323.99997
+      y: 1380.8004
       width: 200
       height: 160
     id: 20
@@ -377,8 +377,8 @@ MonoBehaviour:
     currentIndex: 12
     rect:
       serializedVersion: 2
-      x: 473.60016
-      y: 1383.1996
+      x: 912.0002
+      y: 1384.7996
       width: 200
       height: 160
     id: 22
@@ -403,8 +403,8 @@ MonoBehaviour:
     currentIndex: 13
     rect:
       serializedVersion: 2
-      x: 47.99997
-      y: 1530.3994
+      x: 323.99994
+      y: 1543.1995
       width: 200
       height: 160
     id: 21
@@ -429,8 +429,8 @@ MonoBehaviour:
     currentIndex: 14
     rect:
       serializedVersion: 2
-      x: 472.80005
-      y: 1543.1989
+      x: 911.2001
+      y: 1544.7988
       width: 200
       height: 160
     id: 23

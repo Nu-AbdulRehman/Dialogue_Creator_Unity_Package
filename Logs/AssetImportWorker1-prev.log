@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mabdu" at "2026-01-16T10:41:05.1129108Z"
 OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 11995 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mabdu" at "2026-01-15T09:11:30.1393687Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-15T09:11:30Z
+Date: 2026-01-16T10:41:05Z
 
 COMMAND LINE ARGUMENTS:
 C:\Users\mabdu\Software\Unity\UnityVersions\6000.2.6f2\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/mabdu/Software/GitHub-Repos/Dialogue_Creator_Unity_Package
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54310
+53904
 -licensingIpc
 LicenseClient-mabdu
 -job-worker-count
@@ -65,14 +65,14 @@ C:/Users/mabdu/Software/GitHub-Repos/Dialogue_Creator_Unity_Package
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [68560]  Target information:
+Player connection [11408]  Target information:
 
-Player connection [68560]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3134821293 [EditorId] 3134821293 [Version] 1048832 [Id] WindowsEditor(7,AbdulRehman-LOQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11408]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2125198542 [EditorId] 2125198542 [Version] 1048832 [Id] WindowsEditor(7,AbdulRehman-LOQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [68560]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 3134821293 [EditorId] 3134821293 [Version] 1048832 [Id] WindowsEditor(7,AbdulRehman-LOQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [11408]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 2125198542 [EditorId] 2125198542 [Version] 1048832 [Id] WindowsEditor(7,AbdulRehman-LOQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [68560] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [68560] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11408] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11408] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -81,13 +81,13 @@ Input System module state changed to: Initialized.
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              29fd276c44064415a152f02e4b02d5e3
+  Session Id:              aeb8a023eb864c73819d8c5cdde72847
   Correlation Id:          c2d5052e3d7c6538e1bcadab34a82181
-  External correlation Id: 4593488304836390755
+  External correlation Id: 7443619158897081967
   Machine Id:              7F/eLCRCKqwmUfxuyLaZ13Qr608=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mabdu" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mabdu-notifications" at "2026-01-15T09:11:30.2080777Z"
-[Licensing::Module] Licensing Background thread has ended after 0.07s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mabdu" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mabdu-notifications" at "2026-01-16T10:41:05.1736629Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.82 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
 [Subsystems] Discovering subsystems at path C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
@@ -111,7 +111,7 @@ Initialize mono
 Mono path[0] = 'C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -121,7 +121,7 @@ Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/60
   Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
   Product: Unity Personal
   Type: ULF
-  Expiration: 2026-02-23T10:06:56Z
+  Expiration: 2026-02-23T11:38:24Z
 [Licensing::Module] License group:
   Id: 18966744946345-UnityPersXXXX
   Product: Unity Personal
@@ -133,50 +133,50 @@ Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/60
   Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
   Product: Unity Personal
   Type: ULF
-  Expiration: 2026-02-23T10:06:56Z
+  Expiration: 2026-02-23T11:38:24Z
 [Licensing::Module] License group:
   Id: 18966744946345-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Users/mabdu/Software/Unity/UnityVersions/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.036669 seconds.
-- Loaded All Assemblies, in  1.048 seconds
+Registered in 0.015298 seconds.
+- Loaded All Assemblies, in  0.600 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 598 ms
+Android Extension - Scanning For ADB Devices 330 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.406 seconds
-Domain Reload Profiling: 2436ms
-	BeginReloadAssembly (293ms)
+- Finished resetting the current domain, in  0.848 seconds
+Domain Reload Profiling: 1446ms
+	BeginReloadAssembly (186ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (83ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (177ms)
-	LoadAllAssembliesAndSetupDomain (450ms)
-		LoadAssemblies (291ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (184ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (438ms)
-			TypeCache.Refresh (434ms)
-				TypeCache.ScanAssembly (406ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (232ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1407ms)
+	FinalizeReload (848ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1313ms)
+		SetupLoadedEditorAssemblies (783ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (806ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (251ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
+			InitializePlatformSupportModulesInManaged (472ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -190,14 +190,14 @@ Begin MonoManager ReloadAssembly
   Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
   Product: Unity Personal
   Type: ULF
-  Expiration: 2026-02-23T10:06:56Z
+  Expiration: 2026-02-23T11:38:24Z
 [Licensing::Module] License group:
   Id: 18966744946345-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.970 seconds
-Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.998 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -207,55 +207,698 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.546 seconds
-Domain Reload Profiling: 3508ms
-	BeginReloadAssembly (377ms)
+- Finished resetting the current domain, in  0.979 seconds
+Domain Reload Profiling: 1974ms
+	BeginReloadAssembly (235ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (79ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (1393ms)
-		LoadAssemblies (935ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (660ms)
+		LoadAssemblies (455ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (668ms)
-			TypeCache.Refresh (485ms)
-				TypeCache.ScanAssembly (442ms)
-			BuildScriptInfoCaches (153ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1547ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (201ms)
+			BuildScriptInfoCaches (86ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (980ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1223ms)
+		SetupLoadedEditorAssemblies (801ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (259ms)
-			ProcessInitializeOnLoadAttributes (721ms)
-			ProcessInitializeOnLoadMethodAttributes (202ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (490ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.64 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6732 unused Assets / (5.7 MB). Loaded Objects now: 7458.
-Memory consumption went from 140.5 MB to 134.8 MB.
-Total: 20.853300 ms (FindLiveObjects: 2.601100 ms CreateObjectMapping: 1.908800 ms MarkObjects: 11.118300 ms  DeleteObjects: 5.220000 ms)
+Unloading 6734 unused Assets / (5.4 MB). Loaded Objects now: 7461.
+Memory consumption went from 140.6 MB to 135.2 MB.
+Total: 9.272300 ms (FindLiveObjects: 0.652800 ms CreateObjectMapping: 0.638400 ms MarkObjects: 5.615100 ms  DeleteObjects: 2.364600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (4.4 MB). Loaded Objects now: 7461.
+Memory consumption went from 138.3 MB to 133.9 MB.
+Total: 13.173200 ms (FindLiveObjects: 0.851300 ms CreateObjectMapping: 0.711300 ms MarkObjects: 9.018900 ms  DeleteObjects: 2.589300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (4.8 MB). Loaded Objects now: 7461.
+Memory consumption went from 138.3 MB to 133.5 MB.
+Total: 12.744400 ms (FindLiveObjects: 0.732300 ms CreateObjectMapping: 0.784300 ms MarkObjects: 8.189300 ms  DeleteObjects: 3.035900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.685 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.935 seconds
+Domain Reload Profiling: 2615ms
+	BeginReloadAssembly (591ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (48ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (916ms)
+		LoadAssemblies (951ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (240ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (936ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (731ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (456ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6732 unused Assets / (5.4 MB). Loaded Objects now: 7464.
+Memory consumption went from 141.6 MB to 136.1 MB.
+Total: 8.747100 ms (FindLiveObjects: 0.646000 ms CreateObjectMapping: 0.700000 ms MarkObjects: 4.872800 ms  DeleteObjects: 2.526700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (4.7 MB). Loaded Objects now: 7464.
+Memory consumption went from 141.7 MB to 137.0 MB.
+Total: 10.990500 ms (FindLiveObjects: 0.866200 ms CreateObjectMapping: 0.609300 ms MarkObjects: 6.974000 ms  DeleteObjects: 2.538500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2751824.673072 seconds.
+  path: Assets/ConversationsDatabase.asset
+  artifactKey: Guid(7f5c38c1fc17fd94aa1ac478be31cb3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ConversationsDatabase.asset using Guid(7f5c38c1fc17fd94aa1ac478be31cb3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e325199018f2c880f7e30923805bc025') in 0.3849468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2659849.747943 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ea125ba67ad80c5ca1647bcf002f820') in 0.0393213 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5efa9ec894ae689f4e3572148fad58b8') in 0.0824049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_green.png
+  artifactKey: Guid(bfcba053f0eae9d41a9220ea0d3fecf5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_green.png using Guid(bfcba053f0eae9d41a9220ea0d3fecf5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-N7UG-VMJU-KGPT-C96V-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-02-23T11:38:24Z
+[Licensing::Module] License group:
+  Id: 18966744946345-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+ -> (artifact id: '34763f462eb5f3714620e8a1df5add4e') in 0.2131841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33d0596fc0f0296dbc54e3f3c0855ff1') in 0.0496014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6a9fe820eb8625a88610323e1851eff') in 0.0367001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_red.png
+  artifactKey: Guid(fe7ae3abb470e894d8f3bf9fa944e986) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_red.png using Guid(fe7ae3abb470e894d8f3bf9fa944e986) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a1f5ccd4aca72a9064653295ff30d5b') in 0.0765611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e42b296673ffae7185d1f36853d68e05') in 0.0312578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_pink.png
+  artifactKey: Guid(cb7471f521354b64b9c7be175368c6d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_pink.png using Guid(cb7471f521354b64b9c7be175368c6d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29bfa610d894096d13dbdd408389376c') in 0.0643017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_hover.png
+  artifactKey: Guid(1e1e83e568ea4cb4ab78b8856273f209) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_hover.png using Guid(1e1e83e568ea4cb4ab78b8856273f209) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41272d82d66e196a40e9c505b67b1b35') in 0.0836817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_pink.png
+  artifactKey: Guid(21b1b6db3bb8cc345b2f7b1b323ce2f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_pink.png using Guid(21b1b6db3bb8cc345b2f7b1b323ce2f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93011e8536cbe997e9ef188069596af4') in 0.0831491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ed32fa75330317d69df49ac144e64ef') in 0.1721058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_purple.png
+  artifactKey: Guid(052cac805dbad18408921850b075bb5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_purple.png using Guid(052cac805dbad18408921850b075bb5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e1b792c7a858bbbd96aeff57adeda5e') in 0.0749494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_red.png
+  artifactKey: Guid(459b52a2653fb3842b3b88fbee1556cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_red.png using Guid(459b52a2653fb3842b3b88fbee1556cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75c8422fbd456b82211b5bf029af3416') in 0.0882368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_yellow.png
+  artifactKey: Guid(6663d9332a46dcb419eee2b44aee8e77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_yellow.png using Guid(6663d9332a46dcb419eee2b44aee8e77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '978a2ad57e8434a1440c7fdfae72b3e4') in 0.069318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/Samples/SampleOptionsFile.txt
+  artifactKey: Guid(aac236603138c36468e78c67f10cddfa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Resources/Samples/SampleOptionsFile.txt using Guid(aac236603138c36468e78c67f10cddfa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b17f10d419c4a8ee7675a05be2f12144') in 0.0265786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/Archie_No-Bg.png
+  artifactKey: Guid(baf00d4c3f28fec4ab2ce52db8f643b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/Archie_No-Bg.png using Guid(baf00d4c3f28fec4ab2ce52db8f643b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '996106699d12718758e262a19b5a7fa4') in 0.0635881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/ConversationDropdownDrawer.cs
+  artifactKey: Guid(9d2384c7c0276a14580261c0eb335839) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Editor/ConversationDropdownDrawer.cs using Guid(9d2384c7c0276a14580261c0eb335839) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d386b846f4ce2e6654ed8399b80d91e') in 0.0311935 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_green.png
+  artifactKey: Guid(50703107a7c4ce9499b792a65baf4ac6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_green.png using Guid(50703107a7c4ce9499b792a65baf4ac6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12efcac1037af1bee900d1a521c0d5ba') in 0.0751999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_idle.png
+  artifactKey: Guid(d67d0424b610f764882fcd5df558dc30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_idle.png using Guid(d67d0424b610f764882fcd5df558dc30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe7aadb873b05c739061c755435cea0b') in 0.0764466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_red.png
+  artifactKey: Guid(c5bb6535cd962bc468b06c069ecec2c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_red.png using Guid(c5bb6535cd962bc468b06c069ecec2c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98953b21511a819b1d80c60ec8c6c7c2') in 0.093488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_pink.png
+  artifactKey: Guid(9da941a05b852594f90dee908574ae7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_pink.png using Guid(9da941a05b852594f90dee908574ae7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b1d06073d7fac4bcb20db3d300ee22c') in 0.0666368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_orange.png
+  artifactKey: Guid(8ce0a843a2a39ed478a71cc52a2056c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_orange.png using Guid(8ce0a843a2a39ed478a71cc52a2056c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ae465610e61a04edcf1a80853631254') in 0.0688555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/ConversationsHandler.cs
+  artifactKey: Guid(c5b2074bc0953c945bfb4d14f8ea925b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Editor/ConversationsHandler.cs using Guid(c5b2074bc0953c945bfb4d14f8ea925b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b193bc25b4921463635c8985f252178') in 0.0325328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ec397ebf8aeaed67ca7610d35bfb338') in 0.0540519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (3.9 MB). Loaded Objects now: 7466.
+Memory consumption went from 143.0 MB to 139.1 MB.
+Total: 37.850400 ms (FindLiveObjects: 2.768100 ms CreateObjectMapping: 6.481000 ms MarkObjects: 17.916500 ms  DeleteObjects: 10.682300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.625658 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '476b7972d535aa3c1c8c77453b69a32c') in 0.1129434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb429b303f50f6863d91d65240871c76') in 0.0730512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0de7b58cb35753f567f5f8d8568bf275') in 0.0278076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0be94f7f08a7cc9f105b699de7ec0a1') in 0.0443366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.560424 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2769db2ff3aba69ea0aaa1008d3c9630') in 0.5832543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_purple.png
+  artifactKey: Guid(ce01b0dbd34971746bafc8b02121e5bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_purple.png using Guid(ce01b0dbd34971746bafc8b02121e5bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ae82b22853ed448fde8e48415909c23') in 0.0724809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_yellow.png
+  artifactKey: Guid(4b7523daecd509a409e76b0e0670ed51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_2_yellow.png using Guid(4b7523daecd509a409e76b0e0670ed51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd475b9c8196e22968e48546cf34aec91') in 0.064633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13a46d6f3a3ca934861892bd738abbce') in 0.0465391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_blue.png
+  artifactKey: Guid(3605738d6378d7241b18c4e42757f0dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_blue.png using Guid(3605738d6378d7241b18c4e42757f0dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '133c6570ff58b4a6ba569d84ca4816d5') in 0.0701516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/EditorQuitHandler.cs
+  artifactKey: Guid(db2e924daf96fc04882c547d6c8340a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Editor/EditorQuitHandler.cs using Guid(db2e924daf96fc04882c547d6c8340a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47c7d672b90e3fc938051e35a65c7cf9') in 0.0267593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_yellow.png
+  artifactKey: Guid(03f6a183c3984dc4385bab704b22f93b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_yellow.png using Guid(03f6a183c3984dc4385bab704b22f93b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98108a14a20dea98bf8cecb8435ed654') in 0.0669254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_yellow.png
+  artifactKey: Guid(3de6ecb583b0a2540a6eeb93832310f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_2_yellow.png using Guid(3de6ecb583b0a2540a6eeb93832310f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea5a685134278f8423327f307e483126') in 0.066824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/Foggy_Forest.png
+  artifactKey: Guid(7baf5f155aea6cf4e84173cf54317ad6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/Foggy_Forest.png using Guid(7baf5f155aea6cf4e84173cf54317ad6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4da1c5cb675f144918bd9ef3eecabc7b') in 0.0490153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da35ab77e7b48450b89b15fa05eebf51') in 0.0292617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_purple.png
+  artifactKey: Guid(1852e998167d46042a5dc30a07ca8491) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_light_purple.png using Guid(1852e998167d46042a5dc30a07ca8491) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffdcc087b6f3125433a6d873533e48c5') in 0.0770597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_blue.png
+  artifactKey: Guid(ba92973394e8ad7419c7d1fe8df1a673) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_blue.png using Guid(ba92973394e8ad7419c7d1fe8df1a673) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b412fe2d262c8ae3f4092c44e40e179') in 0.0665499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2e1aa43782e7fa1a685178005664100') in 0.0310598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ac0aa953d26078d6531839fb58a78a4') in 0.0738698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_yellow.png
+  artifactKey: Guid(a158f5a579037ac4c876d4c24934a842) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_yellow.png using Guid(a158f5a579037ac4c876d4c24934a842) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '081b467dfb733937b002d049c34108bf') in 0.0728723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_hover.png
+  artifactKey: Guid(1b79534ef4258f142899d4ae3398fbaa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_hover.png using Guid(1b79534ef4258f142899d4ae3398fbaa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15cc54e96598c000cf1261342baa4271') in 0.0592427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_red.png
+  artifactKey: Guid(8a1b172a3330f614989fc12b26874beb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/namebox_red.png using Guid(8a1b172a3330f614989fc12b26874beb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a997d1c3f0f8bbdaa9f4f1fc3a26ee7') in 0.068502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_purple.png
+  artifactKey: Guid(ab15c66970b8dec448e82efdcf4769b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_light_purple.png using Guid(ab15c66970b8dec448e82efdcf4769b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ff40afa970aeafa6d79cbef88bbde7e') in 0.0731677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_purple.png
+  artifactKey: Guid(aa1fc74809a219343861bd10c2b3090e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_purple.png using Guid(aa1fc74809a219343861bd10c2b3090e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '934028aeaed38ffe44fae0240ef55f7c') in 0.0704019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31f6b26b0fb6e69781b62ec442b23e48') in 0.0385976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_green.png
+  artifactKey: Guid(1fb3d804c0ec43b4eb722fedf1a350c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/statusbox_dark_green.png using Guid(1fb3d804c0ec43b4eb722fedf1a350c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ff5ae6c0689f4a93bffb55a39daa7fe') in 0.0605216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_disabled.png
+  artifactKey: Guid(7aab886e80599234992ab1fc8be32812) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_disabled.png using Guid(7aab886e80599234992ab1fc8be32812) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6308fd4c34ebc6bbec8c7a9b10839568') in 0.0587799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5df4b1fdd225c0bf82d0498faccfd2f7') in 0.0744169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/com.Snype.visualnovel/Resources/Samples/SampleDialogueFile_Archie.txt
+  artifactKey: Guid(3cc80bbfe7dce6c4c9905be1c5592406) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Resources/Samples/SampleDialogueFile_Archie.txt using Guid(3cc80bbfe7dce6c4c9905be1c5592406) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f60819d41ac34c439f0fceec120ba9a0') in 0.0265589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_purple.png
+  artifactKey: Guid(c900f4505f24c674bbb61e0545e16d20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_dark_purple.png using Guid(c900f4505f24c674bbb61e0545e16d20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94e3b04847dbfc95bb34cbb656511850') in 0.0567523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38c039c6459b627f373fd3b4ab31d0b6') in 0.0273972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_blue.png
+  artifactKey: Guid(b49a716d073cc5142a7c201ab1ab0254) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/textbox_light_blue.png using Guid(b49a716d073cc5142a7c201ab1ab0254) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '353112df46bce71b439db1d9609c981e') in 0.0605046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97070330ccb1cd0b5121e29c19f59c15') in 0.1250128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_blue.png
+  artifactKey: Guid(178b01b21d56b7e4a820a0d8c22342ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_2_blue.png using Guid(178b01b21d56b7e4a820a0d8c22342ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3641bb882b9b33abf01c486cab4954fe') in 0.0688907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_idle.png
+  artifactKey: Guid(fcd1922f5650c95438b7594f6a1aa602) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_dark_idle.png using Guid(fcd1922f5650c95438b7594f6a1aa602) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5464d5a8334ed242ff23ca983cc7bac') in 0.0665828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+  artifactKey: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '721cafaaf638d7303fc39e3158721c47') in 0.0494611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_orange.png
+  artifactKey: Guid(a2f456138912c394480f28e033ae6de4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/dialoguebox_dark_orange.png using Guid(a2f456138912c394480f28e033ae6de4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7dc62c3ff13ad72c07c5f31e2984208') in 0.0617446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/com.Snype.visualnovel/Editor/DialogueHandler.cs
+  artifactKey: Guid(9b86df13538e7864daa850cf02e2455f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Editor/DialogueHandler.cs using Guid(9b86df13538e7864daa850cf02e2455f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'caba85d042ecd00fb53509b607be40ff') in 0.0272993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_disabled.png
+  artifactKey: Guid(07ef7c3a14e55874bb6f59462c046ee4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Samples/UI-Assets/choice_light_disabled.png using Guid(07ef7c3a14e55874bb6f59462c046ee4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3cebb03d4c17d2f7c5c158a6ef1016e') in 0.0616893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Conversation.cs
+  artifactKey: Guid(37b2533393ca97b49a3f41e38549e61e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/com.Snype.visualnovel/Runtime/DialogueSystem/Conversation.cs using Guid(37b2533393ca97b49a3f41e38549e61e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fbc608166a349a7be9dd74a4db234bfb') in 0.0256587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (4.3 MB). Loaded Objects now: 7466.
+Memory consumption went from 143.4 MB to 139.1 MB.
+Total: 31.727400 ms (FindLiveObjects: 1.757700 ms CreateObjectMapping: 1.574200 ms MarkObjects: 22.917100 ms  DeleteObjects: 5.476200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6721 unused Assets / (3.7 MB). Loaded Objects now: 7466.
+Memory consumption went from 143.4 MB to 139.6 MB.
+Total: 23.003400 ms (FindLiveObjects: 1.642100 ms CreateObjectMapping: 1.818100 ms MarkObjects: 15.146100 ms  DeleteObjects: 4.394500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

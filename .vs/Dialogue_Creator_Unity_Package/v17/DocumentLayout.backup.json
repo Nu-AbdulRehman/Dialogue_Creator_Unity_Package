@@ -3,35 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|c:\\users\\mabdu\\software\\github-repos\\dialogue_creator_unity_package\\assets\\com.snype.visualnovel\\runtime\\dialoguesystem\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|solutionrelative:assets\\com.snype.visualnovel\\runtime\\dialoguesystem\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\assets\\com.snype.visualnovel\\runtime\\dialoguesystem\\conversationnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|solutionrelative:assets\\com.snype.visualnovel\\runtime\\dialoguesystem\\conversationnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\assets\\com.snype.visualnovel\\samples\\sampleuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|solutionrelative:assets\\com.snype.visualnovel\\samples\\sampleuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|c:\\users\\mabdu\\software\\github-repos\\dialogue_creator_unity_package\\assets\\com.snype.visualnovel\\resources\\samples\\sampleoptionsfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|solutionrelative:assets\\com.snype.visualnovel\\resources\\samples\\sampleoptionsfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6C64E85-8156-7B12-87E2-A9D8CE7C8DDD}|Assembly-CSharp-Editor.csproj|C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\assets\\com.snype.visualnovel\\editor\\conversationcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C64E85-8156-7B12-87E2-A9D8CE7C8DDD}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\com.snype.visualnovel\\editor\\conversationcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\assets\\com.snype.visualnovel\\samples\\sampleuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|solutionrelative:assets\\com.snype.visualnovel\\samples\\sampleuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\assets\\com.snype.visualnovel\\runtime\\dialoguesystem\\runtimefunctionregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|solutionrelative:assets\\com.snype.visualnovel\\runtime\\dialoguesystem\\runtimefunctionregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\assets\\com.snype.visualnovel\\resources\\samples\\sampleoptionsfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|solutionrelative:assets\\com.snype.visualnovel\\resources\\samples\\sampleoptionsfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6C64E85-8156-7B12-87E2-A9D8CE7C8DDD}|Assembly-CSharp-Editor.csproj|C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\assets\\com.snype.visualnovel\\editor\\dialoguehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6C64E85-8156-7B12-87E2-A9D8CE7C8DDD}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\com.snype.visualnovel\\editor\\dialoguehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\assets\\com.snype.visualnovel\\runtime\\dialoguesystem\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|solutionrelative:assets\\com.snype.visualnovel\\runtime\\dialoguesystem\\dialoguesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|c:\\users\\mabdu\\software\\github-repos\\dialogue_creator_unity_package\\assets\\com.snype.visualnovel\\resources\\samples\\sampledialoguefile_archie.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\assets\\com.snype.visualnovel\\resources\\samples\\sampledialoguefile_archie.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|solutionrelative:assets\\com.snype.visualnovel\\resources\\samples\\sampledialoguefile_archie.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|c:\\users\\mabdu\\software\\github-repos\\dialogue_creator_unity_package\\assets\\com.snype.visualnovel\\resources\\samples\\sampledialoguefile_arin.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\assets\\com.snype.visualnovel\\resources\\samples\\sampledialoguefile_arin.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2BD7633E-57B7-2382-E477-0370D9ADCE99}|Assembly-CSharp.csproj|solutionrelative:assets\\com.snype.visualnovel\\resources\\samples\\sampledialoguefile_arin.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -50,24 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SampleDialogueFile_Archie.txt",
-              "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Archie.txt",
-              "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Archie.txt",
-              "ToolTip": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Archie.txt",
-              "RelativeToolTip": "Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Archie.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-15T13:08:35.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SampleDialogueFile_Arin.txt",
               "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Arin.txt",
               "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Arin.txt",
@@ -75,12 +66,11 @@
               "RelativeToolTip": "Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Arin.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-15T13:07:45.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T13:07:45.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SampleOptionsFile.txt",
               "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleOptionsFile.txt",
               "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleOptionsFile.txt",
@@ -88,12 +78,11 @@
               "RelativeToolTip": "Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleOptionsFile.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-15T12:35:50.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T12:35:50.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DialogueHandler.cs",
               "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Editor\\DialogueHandler.cs",
               "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Editor\\DialogueHandler.cs",
@@ -101,64 +90,84 @@
               "RelativeToolTip": "Assets\\com.Snype.visualnovel\\Editor\\DialogueHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T10:30:16.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T10:30:16.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ConversationCreator.cs",
               "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Editor\\ConversationCreator.cs",
               "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Editor\\ConversationCreator.cs",
               "ToolTip": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Editor\\ConversationCreator.cs",
               "RelativeToolTip": "Assets\\com.Snype.visualnovel\\Editor\\ConversationCreator.cs",
-              "ViewState": "AgIAALQBAAAAAAAAAAAvwKoBAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAcCAAAAAAAAAAAIwBUCAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T09:16:16.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T09:16:16.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SampleUIController.cs",
               "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Samples\\SampleUIController.cs",
               "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Samples\\SampleUIController.cs",
               "ToolTip": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Samples\\SampleUIController.cs",
               "RelativeToolTip": "Assets\\com.Snype.visualnovel\\Samples\\SampleUIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T12:27:33.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T12:27:33.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "DialogueSystem.cs",
               "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\DialogueSystem.cs",
               "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\DialogueSystem.cs",
               "ToolTip": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\DialogueSystem.cs",
               "RelativeToolTip": "Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\DialogueSystem.cs",
-              "ViewState": "AgIAAMgAAAAAAAAAAAArwOYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAlwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T10:44:35.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ConversationNode.cs",
               "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\ConversationNode.cs",
               "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\ConversationNode.cs",
               "ToolTip": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\ConversationNode.cs",
               "RelativeToolTip": "Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\ConversationNode.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCIAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T10:39:36.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T10:39:36.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "RuntimeFunctionRegistry.cs",
+              "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\RuntimeFunctionRegistry.cs",
+              "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\RuntimeFunctionRegistry.cs",
+              "ToolTip": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\RuntimeFunctionRegistry.cs",
+              "RelativeToolTip": "Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\RuntimeFunctionRegistry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T13:49:01.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SampleDialogueFile_Archie.txt",
+              "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Archie.txt",
+              "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Archie.txt",
+              "ToolTip": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Archie.txt",
+              "RelativeToolTip": "Assets\\com.Snype.visualnovel\\Resources\\Samples\\SampleDialogueFile_Archie.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-15T13:08:35.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "EditorQuitHandler.cs",
               "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Editor\\EditorQuitHandler.cs",
               "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Editor\\EditorQuitHandler.cs",
@@ -170,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Dialogue.cs",
               "DocumentMoniker": "C:\\Users\\mabdu\\Software\\GitHub-Repos\\Dialogue_Creator_Unity_Package\\Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\Dialogue.cs",
               "RelativeDocumentMoniker": "Assets\\com.Snype.visualnovel\\Runtime\\DialogueSystem\\Dialogue.cs",

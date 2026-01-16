@@ -772,6 +772,8 @@ MonoBehaviour:
   - {fileID: 1111880302}
   - {fileID: 79556218}
   currentConversation: {fileID: -4289191604263268604, guid: 7f5c38c1fc17fd94aa1ac478be31cb3a, type: 2}
+  dialogueDelay: 2
+  characterSpeed: 0.03
 --- !u!4 &1122110573
 Transform:
   m_ObjectHideFlags: 0

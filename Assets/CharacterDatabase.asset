@@ -28,7 +28,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Character
   characterName: Arin
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -1868148656102128941, guid: acbec086e126ce040a46f13bddeea08d, type: 3}
 --- !u!114 &7145295043633235004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41,5 +41,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70368310a3cb1db42ad0e67a02c32ac6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Character
-  characterName: Mira
-  characterSprite: {fileID: 0}
+  characterName: Archie
+  characterSprite: {fileID: -4078646218448675577, guid: baf00d4c3f28fec4ab2ce52db8f643b3, type: 3}

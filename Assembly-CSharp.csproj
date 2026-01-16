@@ -66,7 +66,6 @@
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\Dialogue.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\Character.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\ConversationNode.cs" />
-    <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\ConversationDropdownDrawer.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\CharacterDatabase.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Runtime\DialogueSystem\Conversation.cs" />
     <Compile Include="Assets\com.Snype.visualnovel\Samples\SampleUIController.cs" />
